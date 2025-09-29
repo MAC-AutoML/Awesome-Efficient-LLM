@@ -73,6 +73,9 @@
 | 2025 | Sparse VideoGen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity | ICML 2025 | T2V | [Link](https://arxiv.org/pdf/2502.01776) | [Link](https://github.com/svg-project/Sparse-VideoGen) ![](https://img.shields.io/github/stars/svg-project/Sparse-VideoGen.svg?style=social) |
 | 2025 | Timestep Embedding Tells: It’s Time to Cache for Video Diffusion Model | CVPR 2025 | T2V | [Link](https://arxiv.org/pdf/2411.19108) | [Link](https://github.com/ali-vilab/TeaCache) ![](https://img.shields.io/github/stars/ali-vilab/TeaCache.svg?style=social) |
 | 2025 | From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers | ICCV 2025 | T2V | [Link](https://arxiv.org/pdf/2503.06923) | [Link](https://github.com/Shenyi-Z/TaylorSeer) ![](https://img.shields.io/github/stars/Shenyi-Z/TaylorSeer.svg?style=social) |
+| 2025 | Radial Attention: Sparse Attention with Energy Decay for Long Video Generation | NIPS 2025 | T2V | [Link](https://arxiv.org/pdf/2506.19852) | [Link](https://github.com/mit-han-lab/radial-attention) ![](https://img.shields.io/github/stars/mit-han-lab/radial-attention.svg?style=social) |
+| 2025 | XAttention: Block Sparse Attention with Antidiagonal Scoring | ICML 2025 | T2T、T2V | [Link](https://arxiv.org/pdf/2503.16428) | [Link](https://github.com/mit-han-lab/x-attention) ![](https://img.shields.io/github/stars/mit-han-lab/x-attention.svg?style=social) |
+| 2024 | PTQ4DiT: Post-training Quantization for Diffusion Transformers | NIPS 2024 | T2I | [Link](https://arxiv.org/pdf/2405.16005) | [Link](https://github.com/adreamwu/PTQ4DiT) ![](https://img.shields.io/github/stars/adreamwu/PTQ4DiT.svg?style=social) |
 ---
 # Knowledge Distillation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
