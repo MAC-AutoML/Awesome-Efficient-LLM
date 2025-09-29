@@ -45,7 +45,9 @@
 | 2024 | LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models | ICLR 2024        | [Link](https://arxiv.org/abs/2206.09557) | [Link](https://github.com/naver-aics/lut-gemm)![](https://img.shields.io/github/stars/naver-aics/lut-gemm.svg?style=social) |
 | 2024 | OneBit: Towards Extremely Low-bit Large Language Models | NeurIPS 2024 | [Link](https://arxiv.org/abs/2402.11295) | [Link](https://github.com/xuyuzhuang11/OneBit)![](https://img.shields.io/github/stars/xuyuzhuang11/OneBit.svg?style=social) |
 | 2023 | LLM-FP4: 4-bit Floating-Point Quantized Transformers | EMNLP 2023 | [Link](https://arxiv.org/abs/2310.16836) | [Link](https://github.com/nbasyl/LLM-FP4)![](https://img.shields.io/github/stars/nbasyl/LLM-FP4.svg?style=social) |
-
+| 2024 | FlatQuant: Flatness Matters for LLM Quantization | ICML 2025 | [Link](https://arxiv.org/pdf/2410.09426) | [Link](https://github.com/ruikangliu/FlatQuant)![](https://img.shields.io/github/stars/ruikangliu/FlatQuant.svg?style=social) |
+| 2024 | SqueezeLLM: Dense-and-Sparse Quantization | ICML 2024 | [Link](https://arxiv.org/pdf/2306.07629) | [Link](https://github.com/SqueezeAILab/SqueezeLLM)![](https://img.shields.io/github/stars/SqueezeAILab/SqueezeLLM.svg?style=social) |
+| 2023 | RPTQ: Reorder-based Post-training Quantization for Large Language Models |  | [Link](https://arxiv.org/pdf/2304.01089) | [Link](https://github.com/hahnyuan/RPTQ4LLM)![](https://img.shields.io/github/stars/hahnyuan/RPTQ4LLM.svg?style=social) |
 
 
 ## VLM Quantization
