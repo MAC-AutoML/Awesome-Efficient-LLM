@@ -148,6 +148,10 @@
 | 2024 | GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM | NeurIPS 2024 | [Link](https://arxiv.org/abs/2403.05527) | [Link](https://github.com/opengear-project/GEAR) ![](https://img.shields.io/github/stars/opengear-project/GEAR.svg?style=social) | Quantization |
 | 2024 | MiniKV: Pushing the Limits of LLM Inference via 2-Bit Layer-Discriminative KV Cache | ACL 2025 | [Link](https://arxiv.org/abs/2411.18077) | N/A | Quantization |
 | 2024 | Palu: Compressing KV-Cache with Low-Rank Projection | ICLR 2025 | [Link](https://arxiv.org/abs/2407.21118) | [Link](https://github.com/shadowpa0327/Palu) ![](https://img.shields.io/github/stars/shadowpa0327/Palu.svg?style=social) | Low Rank Projection |
+| 2024 | Not All Heads Matter: A Head-Level KV Cache Compression Method with Integrated Retrieval and Reasoning | ICLR 2025 | [Link](https://arxiv.org/abs/2410.19258) | [Link](https://github.com/FYYFU/HeadKV) ![](https://img.shields.io/github/stars/FYYFU/HeadKV.svg?style=social) | Token Eviction |
+| 2024 | NACL: A General and Effective KV Cache Eviction Framework for LLMs at Inference Time | ACL 2024 | [Link](https://arxiv.org/abs/2408.03675) | N/A | Token Eviction |
+| 2024 | SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation | ACL 2025 | [Link](https://arxiv.org/abs/2412.13649) | [Link](https://github.com/Linking-ai/SCOPE) ![](https://img.shields.io/github/stars/Linking-ai/SCOPE.svg?style=social) | Token Eviction |
+| 2024 | AsymKV: Enabling 1-Bit Quantization of KV Cache with Layer-Wise Asymmetric Quantization Configurations | ACL 2025 | [Link](https://arxiv.org/abs/2410.13212) | N/A | Quantization |
 
 
 
