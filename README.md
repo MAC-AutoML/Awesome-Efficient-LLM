@@ -48,6 +48,8 @@
 | 2024 | FlatQuant: Flatness Matters for LLM Quantization | ICML 2025 | [Link](https://arxiv.org/pdf/2410.09426) | [Link](https://github.com/ruikangliu/FlatQuant)![](https://img.shields.io/github/stars/ruikangliu/FlatQuant.svg?style=social) |
 | 2024 | SqueezeLLM: Dense-and-Sparse Quantization | ICML 2024 | [Link](https://arxiv.org/pdf/2306.07629) | [Link](https://github.com/SqueezeAILab/SqueezeLLM)![](https://img.shields.io/github/stars/SqueezeAILab/SqueezeLLM.svg?style=social) |
 | 2023 | RPTQ: Reorder-based Post-training Quantization for Large Language Models |  | [Link](https://arxiv.org/pdf/2304.01089) | [Link](https://github.com/hahnyuan/RPTQ4LLM)![](https://img.shields.io/github/stars/hahnyuan/RPTQ4LLM.svg?style=social) |
+| 2024 | QQQ: Quality Quattuor-Bit Quantization for Large Language Models | ICLR | [Link](https://arxiv.org/pdf/2406.09904) | [Link](https://github.com/HandH1998/QQQ)![](https://img.shields.io/github/stars/HandH1998/QQQ.svg?style=social) |
+| 2024 | Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs |                  | [Link](https://arxiv.org/pdf/2405.14428) | [Link](https://github.com/onnoo/activation-spikes)![](https://img.shields.io/github/stars/onnoo/activation-spikes.svg?style=social) |
 
 
 ## VLM Quantization
