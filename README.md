@@ -5,6 +5,7 @@
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
+  - [DiT Quantization](#DiT-Quantization)
 - [Knowledge Distillation](#Knowledge-Distillation)
 - [Low-Rank Decomposition](#Low-Rank-Decomposition)
 - [KV Cache Compression](#KV-Cache-Compression)
@@ -81,8 +82,9 @@
 | 2025 | XAttention: Block Sparse Attention with Antidiagonal Scoring | ICML 2025 | T2T、T2V | [Link](https://arxiv.org/pdf/2503.16428) | [Link](https://github.com/mit-han-lab/x-attention) ![](https://img.shields.io/github/stars/mit-han-lab/x-attention.svg?style=social) |
 | 2024 | PTQ4DiT: Post-training Quantization for Diffusion Transformers | NIPS 2024 | T2I | [Link](https://arxiv.org/pdf/2405.16005) | [Link](https://github.com/adreamwu/PTQ4DiT) ![](https://img.shields.io/github/stars/adreamwu/PTQ4DiT.svg?style=social) |
 | 2025 | Data-free Video Diffusion Transformers Quantization |  | T2V | [Link](https://arxiv.org/pdf/2505.18663) | [Link](https://github.com/lhxcs/DVD-Quant) ![](https://img.shields.io/github/stars/lhxcs/DVD-Quant.svg?style=social) |
-| 2025 | Adaptive Caching for Faster Video Generation with Diffusion Transformers |  |  T2V | [Link](https://arxiv.org/pdf/2411.02397) | [Link](https://github.com/AdaCache-DiT/AdaCache) ![](https://img.shields.io/github/stars/AdaCache-DiT/AdaCache.svg?style=social) |
-| 2025 | DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing | WACV 2025 |  T2V | [Link](https://arxiv.org/pdf/2409.07756) | [Link](https://github.com/DZY122/DiTAS) ![](https://img.shields.io/github/stars/DZY122/DiTAS.svg?style=social) |
+| 2025 | Adaptive Caching for Faster Video Generation with Diffusion Transformers |  | T2V | [Link](https://arxiv.org/pdf/2411.02397) | [Link](https://github.com/AdaCache-DiT/AdaCache) ![](https://img.shields.io/github/stars/AdaCache-DiT/AdaCache.svg?style=social) |
+| 2025 | DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing | WACV 2025 | T2V | [Link](https://arxiv.org/pdf/2409.07756) | [Link](https://github.com/DZY122/DiTAS) ![](https://img.shields.io/github/stars/DZY122/DiTAS.svg?style=social) |
+| 2025 | Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs |  |  T2T | [Link](https://arxiv.org/pdf/2508.14896) |  |
 ---
 # Knowledge Distillation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
