@@ -5,11 +5,11 @@
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
-  - [DiT Quantization](#DiT-Quantization)
 - [Knowledge Distillation](#Knowledge-Distillation)
 - [Low-Rank Decomposition](#Low-Rank-Decomposition)
 - [KV Cache Compression](#KV-Cache-Compression)
 - [Speculative Decoding](#Speculative-Decoding)
+- [Diffusion Models](#Diffusion-Models)
 
 ---
 # Sparsity and Pruning
@@ -63,32 +63,6 @@
 
 
 
-## DiT Quantization
-
-| Year | Title | Venue | Task | Paper | Code |
-|------|-------|-------|------|-------|------|
-| 2025 | SVDQuant: Absorbing Outliers by Low-Rank Component for 4-Bit Diffusion Models | ICLR 2025 | T2I | [Link](https://arxiv.org/pdf/2411.05007) | [Link](https://github.com/nunchaku-tech/nunchaku) ![](https://img.shields.io/github/stars/nunchaku-tech/nunchaku.svg?style=social) |
-| 2025 | ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation | ICLR 2025 | Image Generation | [Link](https://arxiv.org/pdf/2406.02540) | [Link](https://github.com/thu-nics/ViDiT-Q) ![](https://img.shields.io/github/stars/thu-nics/ViDiT-Q.svg?style=social) |
-| 2023 | Post-training Quantization on Diffusion Models | CVPR 2023 | T2I、T2V | [Link](https://arxiv.org/pdf/2211.15736) | [Link](https://github.com/42Shawn/PTQ4DM) ![](https://img.shields.io/github/stars/42Shawn/PTQ4DM.svg?style=social) |
-| 2023 | Q-Diffusion: Quantizing Diffusion Models | ICCV 2023 | Image Generation | [Link](https://arxiv.org/pdf/2302.04304) | [Link](https://github.com/Xiuyu-Li/q-diffusion) ![](https://img.shields.io/github/stars/Xiuyu-Li/q-diffusion.svg?style=social) |
-| 2024 | Towards Accurate Post-training Quantization for Diffusion Models | CVPR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2305.18723) | [Link](https://github.com/ChangyuanWang17/APQ-DM) ![](https://img.shields.io/github/stars/ChangyuanWang17/APQ-DM.svg?style=social) |
-| 2024 | EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models | ICLR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2310.03270) | [Link](https://github.com/ThisisBillhe/EfficientDM) ![](https://img.shields.io/github/stars/ThisisBillhe/EfficientDM.svg?style=social) |
-| 2025 | Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers | CVPR 2025 | T2I、T2V | [Link](https://arxiv.org/pdf/2406.17343) | [Link](https://github.com/Juanerx/Q-DiT) ![](https://img.shields.io/github/stars/Juanerx/Q-DiT.svg?style=social) |
-| 2025 | SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration | ICLR 2025 | T2I、T2V | [Link](https://arxiv.org/pdf/2410.02367) | [Link](https://github.com/thu-ml/SageAttention) ![](https://img.shields.io/github/stars/thu-ml/SageAttention.svg?style=social) |
-| 2024 | TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models | CVPR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2311.16503) | [Link](https://github.com/ModelTC/TFMQ-DM) ![](https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social) |
-| 2023 | Temporal Dynamic Quantization for Diffusion Models | NIPS 2023 |  | [Link](https://arxiv.org/pdf/2306.02316v2) | [Link](https://github.com/ECoLab-POSTECH/TDQ_NeurIPS2023) ![](https://img.shields.io/github/stars/ECoLab-POSTECH/TDQ_NeurIPS2023.svg?style=social) |
-| 2024 | DiTFastAttn: Attention Compression for Diffusion Transformer Models | NIPS 2024 | T2I、T2V | [Link](https://arxiv.org/pdf/2406.08552) | [Link](https://github.com/thu-nics/DiTFastAttn) ![](https://img.shields.io/github/stars/thu-nics/DiTFastAttn.svg?style=social) |
-| 2025 | Sparse VideoGen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity | ICML 2025 | T2V | [Link](https://arxiv.org/pdf/2502.01776) | [Link](https://github.com/svg-project/Sparse-VideoGen) ![](https://img.shields.io/github/stars/svg-project/Sparse-VideoGen.svg?style=social) |
-| 2025 | Timestep Embedding Tells: It’s Time to Cache for Video Diffusion Model | CVPR 2025 | T2V | [Link](https://arxiv.org/pdf/2411.19108) | [Link](https://github.com/ali-vilab/TeaCache) ![](https://img.shields.io/github/stars/ali-vilab/TeaCache.svg?style=social) |
-| 2025 | From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers | ICCV 2025 | T2V | [Link](https://arxiv.org/pdf/2503.06923) | [Link](https://github.com/Shenyi-Z/TaylorSeer) ![](https://img.shields.io/github/stars/Shenyi-Z/TaylorSeer.svg?style=social) |
-| 2025 | Radial Attention: Sparse Attention with Energy Decay for Long Video Generation | NIPS 2025 | T2V | [Link](https://arxiv.org/pdf/2506.19852) | [Link](https://github.com/mit-han-lab/radial-attention) ![](https://img.shields.io/github/stars/mit-han-lab/radial-attention.svg?style=social) |
-| 2025 | XAttention: Block Sparse Attention with Antidiagonal Scoring | ICML 2025 | T2T、T2V | [Link](https://arxiv.org/pdf/2503.16428) | [Link](https://github.com/mit-han-lab/x-attention) ![](https://img.shields.io/github/stars/mit-han-lab/x-attention.svg?style=social) |
-| 2024 | PTQ4DiT: Post-training Quantization for Diffusion Transformers | NIPS 2024 | T2I | [Link](https://arxiv.org/pdf/2405.16005) | [Link](https://github.com/adreamwu/PTQ4DiT) ![](https://img.shields.io/github/stars/adreamwu/PTQ4DiT.svg?style=social) |
-| 2025 | Data-free Video Diffusion Transformers Quantization |  | T2V | [Link](https://arxiv.org/pdf/2505.18663) | [Link](https://github.com/lhxcs/DVD-Quant) ![](https://img.shields.io/github/stars/lhxcs/DVD-Quant.svg?style=social) |
-| 2025 | Adaptive Caching for Faster Video Generation with Diffusion Transformers |  | T2V | [Link](https://arxiv.org/pdf/2411.02397) | [Link](https://github.com/AdaCache-DiT/AdaCache) ![](https://img.shields.io/github/stars/AdaCache-DiT/AdaCache.svg?style=social) |
-| 2025 | DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing | WACV 2025 | T2V | [Link](https://arxiv.org/pdf/2409.07756) | [Link](https://github.com/DZY122/DiTAS) ![](https://img.shields.io/github/stars/DZY122/DiTAS.svg?style=social) |
-| 2025 | Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs |  |  T2T | [Link](https://arxiv.org/pdf/2508.14896) |  |
----
 # Knowledge Distillation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -184,3 +158,41 @@
 | 2025 |Pre-Training Curriculum for Multi-Token Prediction in Language Models|ACL 2025 |[paper](https://github.com/aynetdia/mtp_curriculum) | [code](https://github.com/aynetdia/mtp_curriculum) ![](https://img.shields.io/github/stars/aynetdia/mtp_curriculum.svg?style=social)|
 | 2025 |Faster Speculative Decoding via Effective Draft Decoder with Pruned Candidate Tree|ACL 2025 |[paper](https://aclanthology.org/2025.acl-long.486.pdf) | N/A |
 
+
+# Diffusion Models
+
+## Quantization
+| Year | Title | Venue | Task | Paper | Code |
+|------|-------|-------|------|-------|------|
+| 2025 | SVDQuant: Absorbing Outliers by Low-Rank Component for 4-Bit Diffusion Models | ICLR 2025 | T2I | [Link](https://arxiv.org/pdf/2411.05007) | [Link](https://github.com/nunchaku-tech/nunchaku) ![](https://img.shields.io/github/stars/nunchaku-tech/nunchaku.svg?style=social) |
+| 2025 | ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation | ICLR 2025 | Image Generation | [Link](https://arxiv.org/pdf/2406.02540) | [Link](https://github.com/thu-nics/ViDiT-Q) ![](https://img.shields.io/github/stars/thu-nics/ViDiT-Q.svg?style=social) |
+| 2023 | Post-training Quantization on Diffusion Models | CVPR 2023 | T2I、T2V | [Link](https://arxiv.org/pdf/2211.15736) | [Link](https://github.com/42Shawn/PTQ4DM) ![](https://img.shields.io/github/stars/42Shawn/PTQ4DM.svg?style=social) |
+| 2023 | Q-Diffusion: Quantizing Diffusion Models | ICCV 2023 | Image Generation | [Link](https://arxiv.org/pdf/2302.04304) | [Link](https://github.com/Xiuyu-Li/q-diffusion) ![](https://img.shields.io/github/stars/Xiuyu-Li/q-diffusion.svg?style=social) |
+| 2024 | Towards Accurate Post-training Quantization for Diffusion Models | CVPR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2305.18723) | [Link](https://github.com/ChangyuanWang17/APQ-DM) ![](https://img.shields.io/github/stars/ChangyuanWang17/APQ-DM.svg?style=social) |
+| 2024 | EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models | ICLR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2310.03270) | [Link](https://github.com/ThisisBillhe/EfficientDM) ![](https://img.shields.io/github/stars/ThisisBillhe/EfficientDM.svg?style=social) |
+| 2025 | Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers | CVPR 2025 | T2I、T2V | [Link](https://arxiv.org/pdf/2406.17343) | [Link](https://github.com/Juanerx/Q-DiT) ![](https://img.shields.io/github/stars/Juanerx/Q-DiT.svg?style=social) |
+| 2024 | TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models | CVPR 2024 | Image Generation | [Link](https://arxiv.org/pdf/2311.16503) | [Link](https://github.com/ModelTC/TFMQ-DM) ![](https://img.shields.io/github/stars/ModelTC/TFMQ-DM.svg?style=social) |
+| 2023 | Temporal Dynamic Quantization for Diffusion Models | NIPS 2023 |  | [Link](https://arxiv.org/pdf/2306.02316v2) | [Link](https://github.com/ECoLab-POSTECH/TDQ_NeurIPS2023) ![](https://img.shields.io/github/stars/ECoLab-POSTECH/TDQ_NeurIPS2023.svg?style=social) |
+| 2024 | PTQ4DiT: Post-training Quantization for Diffusion Transformers | NIPS 2024 | T2I | [Link](https://arxiv.org/pdf/2405.16005) | [Link](https://github.com/adreamwu/PTQ4DiT) ![](https://img.shields.io/github/stars/adreamwu/PTQ4DiT.svg?style=social) |
+| 2025 | Data-free Video Diffusion Transformers Quantization |  | T2V | [Link](https://arxiv.org/pdf/2505.18663) | [Link](https://github.com/lhxcs/DVD-Quant) ![](https://img.shields.io/github/stars/lhxcs/DVD-Quant.svg?style=social) |
+| 2025 | DiTAS: Quantizing Diffusion Transformers via Enhanced Activation Smoothing | WACV 2025 | T2V | [Link](https://arxiv.org/pdf/2409.07756) | [Link](https://github.com/DZY122/DiTAS) ![](https://img.shields.io/github/stars/DZY122/DiTAS.svg?style=social) |
+| 2025 | Quantization Meets dLLMs: A Systematic Study of Post-training Quantization for Diffusion LLMs |  |  T2T | [Link](https://arxiv.org/pdf/2508.14896) |  |
+| 2025 | SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration | ICLR 2025 | T2I、T2V | [Link](https://arxiv.org/pdf/2410.02367) | [Link](https://github.com/thu-ml/SageAttention) ![](https://img.shields.io/github/stars/thu-ml/SageAttention.svg?style=social) |
+---
+
+## Sparsity
+| Year | Title | Venue | Task | Paper | Code |
+|------|-------|-------|------|-------|------|
+| 2024 | DiTFastAttn: Attention Compression for Diffusion Transformer Models | NIPS 2024 | T2I、T2V | [Link](https://arxiv.org/pdf/2406.08552) | [Link](https://github.com/thu-nics/DiTFastAttn) ![](https://img.shields.io/github/stars/thu-nics/DiTFastAttn.svg?style=social) |
+| 2025 | Sparse VideoGen: Accelerating Video Diffusion Transformers with Spatial-Temporal Sparsity | ICML 2025 | T2V | [Link](https://arxiv.org/pdf/2502.01776) | [Link](https://github.com/svg-project/Sparse-VideoGen) ![](https://img.shields.io/github/stars/svg-project/Sparse-VideoGen.svg?style=social) |
+| 2025 | Radial Attention: Sparse Attention with Energy Decay for Long Video Generation | NIPS 2025 | T2V | [Link](https://arxiv.org/pdf/2506.19852) | [Link](https://github.com/mit-han-lab/radial-attention) ![](https://img.shields.io/github/stars/mit-han-lab/radial-attention.svg?style=social) |
+| 2025 | XAttention: Block Sparse Attention with Antidiagonal Scoring | ICML 2025 | T2T、T2V | [Link](https://arxiv.org/pdf/2503.16428) | [Link](https://github.com/mit-han-lab/x-attention) ![](https://img.shields.io/github/stars/mit-han-lab/x-attention.svg?style=social) |
+
+## Caching & Reuse
+| Year | Title | Venue | Task | Paper | Code |
+|------|-------|-------|------|-------|------|
+| 2025 | Timestep Embedding Tells: It’s Time to Cache for Video Diffusion Model | CVPR 2025 | T2V | [Link](https://arxiv.org/pdf/2411.19108) | [Link](https://github.com/ali-vilab/TeaCache) ![](https://img.shields.io/github/stars/ali-vilab/TeaCache.svg?style=social) |
+| 2025 | From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers | ICCV 2025 | T2V | [Link](https://arxiv.org/pdf/2503.06923) | [Link](https://github.com/Shenyi-Z/TaylorSeer) ![](https://img.shields.io/github/stars/Shenyi-Z/TaylorSeer.svg?style=social) |
+| 2025 | Adaptive Caching for Faster Video Generation with Diffusion Transformers |  | T2V | [Link](https://arxiv.org/pdf/2411.02397) | [Link](https://github.com/AdaCache-DiT/AdaCache) ![](https://img.shields.io/github/stars/AdaCache-DiT/AdaCache.svg?style=social) |
+| 2024 | DeepCache: Accelerating Diffusion Models for Free | CVPR 2024 | T2I | [Link](https://arxiv.org/pdf/2312.00858) | [Link](https://github.com/horseee/DeepCache) ![](https://img.shields.io/github/stars/horseee/DeepCache.svg?style=social) |
+| 2025 | Learning-to-Cache: Accelerating Diffusion Transformer via Layer Caching | NIPS 2024 | T2I | [Link](https://arxiv.org/pdf/2406.01733) | [Link](https://github.com/horseee/learning-to-cache) ![](https://img.shields.io/github/stars/horseee/learning-to-cache.svg?style=social) |
