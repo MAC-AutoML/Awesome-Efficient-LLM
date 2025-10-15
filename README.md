@@ -9,7 +9,7 @@
 - [Low-Rank Decomposition](#Low-Rank-Decomposition)
 - [KV Cache Compression](#KV-Cache-Compression)
 - [Speculative Decoding](#Speculative-Decoding)
-- [Diffusion Models](#Diffusion Models)
+- [Diffusion Models](#Diffusion-Models)
 
 ---
 # Sparsity and Pruning
