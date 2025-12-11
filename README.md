@@ -16,7 +16,7 @@
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
-| 2024 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://github.com/locuslab/wanda.svg?style=social) |
+| 2024 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
 
 
 ---
