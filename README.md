@@ -63,7 +63,9 @@
 | 2024 |DISP-LLM: Dimension-Independent Structural Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.11988) |[Link](https://github.com/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning) ![](https://img.shields.io/github/stars/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning.svg?style=social) |
 | 2024 |Search for Efficient Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2409.17372) |[Link](https://github.com/shawnricecake/search-llm) ![](https://img.shields.io/github/stars/shawnricecake/search-llm.svg?style=social) |
 | 2024 |SlimGPT: Layer-wise Structured Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2412.18110) |N/A |
-
+| 2024 |Change Is the Only Constant: Dynamic LLM Slicing based on Layer Redundancy |EMNLP 2024 Findings| [Link](https://arxiv.org/abs/2411.03513) |[Link](https://github.com/RazvanDu/DynamicSlicing) ![](https://img.shields.io/github/stars/RazvanDu/DynamicSlicing.svg?style=social) |
+| 2024 |LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion|ACL 2024| [Link](https://aclanthology.org/2024.acl-long.434) | N/A|
+| 2024 |TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs|ACL 2025| [Link](https://arxiv.org/abs/2412.11242) | [Link](https://github.com/snyhlxde1/TrimLLM) ![](https://img.shields.io/github/stars/snyhlxde1/TrimLLM.svg?style=social)|
 
 
 ## Activation Sparsity
