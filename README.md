@@ -1,7 +1,7 @@
 # Awesome-Efficient-LLM
 
 # Toxonomy and Papers
-- [Sparsity and Pruning](#Sparsity-and-Pruning)
+- [Pruning](#Pruning)
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
@@ -12,12 +12,27 @@
 - [Diffusion Models](#Diffusion-Models)
 
 ---
-# Sparsity and Pruning
-| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
+# Pruning
+| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Unstructured Pruning                                                                            |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
-| 2024 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
+| 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
+| 2023 | Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs | ICLR 2024| [Link](https://arxiv.org/abs/2310.08915) |         [Link](https://github.com/zyxxmu/DSnoT) ![](https://img.shields.io/github/stars/zyxxmu/DSnoT.svg?style=social) |
+| 2023 | Compressing LLMs: The Truth is Rarely Pure and Never Simple| ICLR 2024| [Link](https://arxiv.org/abs/2310.01382) |         [Link](https://github.com/VITA-Group/llm-kick) ![](https://img.shields.io/github/stars/VITA-Group/llm-kick.svg?style=social) |
+| 2023 | Junk DNA Hypothesis: Pruning Small Pre-Trained Weights Irreversibly andMonotonically Impairs “Difficult" Downstream Tasks in LLMs| ICML 2024| [Link](https://arxiv.org/abs/2310.02277) |         [Link](https://github.com/VITA-Group/Junk_DNA_Hypothesis) ![](https://img.shields.io/github/stars/VITA-Group/Junk_DNA_Hypothesis.svg?style=social) |
+| 2023 | Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity| ICML 2024| [Link](https://arxiv.org/abs/2310.05175) |         [Link](https://github.com/luuyin/OWL) ![](https://img.shields.io/github/stars/luuyin/OWL.svg?style=social) |
+| 2023 | Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity| ICML 2024| [Link](https://arxiv.org/abs/2310.05175) |         [Link](https://github.com/luuyin/OWL) ![](https://img.shields.io/github/stars/luuyin/OWL.svg?style=social) |
 
+## Semi-structured Pruning
+
+## Structured Pruning 
+| 2023 |LLM-Pruner: On the Structural Pruning of Large Language Models| NeurIPS 2023| [Link](https://arxiv.org/abs/2305.11627) |  [Link](https://github.com/horseee/LLM-Pruner) ![](https://img.shields.io/github/stars/horseee/LLM-Pruner.svg?style=social) |
+| 2023 |Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning| ACL 2024 Findings| [Link](https://arxiv.org/abs/2305.18403) |  [Link](https://github.com/aim-uofa/LoRAPrune) ![](https://img.shields.io/github/stars/aim-uofa/LoRAPrune.svg?style=social) |
+| 2023 |Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning| ICLR 2024| [Link](https://arxiv.org/abs/2310.06694) |         [Link](https://github.com/princeton-nlp/LLM-Shearing) ![](https://img.shields.io/github/stars/princeton-nlp/LLM-Shearing.svg?style=social) |
+
+## Activation Sparsity
+| 2023 |Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time| ICML 2024| [Link](https://arxiv.org/abs/2310.17157) |  [Link](https://github.com/FMInference/DejaVu) ![](https://img.shields.io/github/stars/FMInference/DejaVu.svg?style=social) |
+| 2023 |ReLU Strikes Back: Exploiting Activation Sparsity in Large Language Models| ICLR 2024| [Link](https://arxiv.org/abs/2310.04564) |  [Link](https://github.com/FMInference/DejaVu) ![](https://img.shields.io/github/stars/FMInference/DejaVu.svg?style=social) |
 
 ---
 # Quantization
