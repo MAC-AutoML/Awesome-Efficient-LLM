@@ -22,17 +22,24 @@
 | 2023 | Junk DNA Hypothesis: Pruning Small Pre-Trained Weights Irreversibly andMonotonically Impairs “Difficult" Downstream Tasks in LLMs| ICML 2024| [Link](https://arxiv.org/abs/2310.02277) |         [Link](https://github.com/VITA-Group/Junk_DNA_Hypothesis) ![](https://img.shields.io/github/stars/VITA-Group/Junk_DNA_Hypothesis.svg?style=social) |
 | 2023 | Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity| ICML 2024| [Link](https://arxiv.org/abs/2310.05175) |         [Link](https://github.com/luuyin/OWL) ![](https://img.shields.io/github/stars/luuyin/OWL.svg?style=social) |
 | 2023 | Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity| ICML 2024| [Link](https://arxiv.org/abs/2310.05175) |         [Link](https://github.com/luuyin/OWL) ![](https://img.shields.io/github/stars/luuyin/OWL.svg?style=social) |
+| 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
 
-## Semi-structured Pruning
+| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Semi-structured Pruning                                                                           |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2023 |
 
 ## Structured Pruning 
+| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Structured Pruning                                                                            |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 |LLM-Pruner: On the Structural Pruning of Large Language Models| NeurIPS 2023| [Link](https://arxiv.org/abs/2305.11627) |  [Link](https://github.com/horseee/LLM-Pruner) ![](https://img.shields.io/github/stars/horseee/LLM-Pruner.svg?style=social) |
 | 2023 |Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning| ACL 2024 Findings| [Link](https://arxiv.org/abs/2305.18403) |  [Link](https://github.com/aim-uofa/LoRAPrune) ![](https://img.shields.io/github/stars/aim-uofa/LoRAPrune.svg?style=social) |
 | 2023 |Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning| ICLR 2024| [Link](https://arxiv.org/abs/2310.06694) |         [Link](https://github.com/princeton-nlp/LLM-Shearing) ![](https://img.shields.io/github/stars/princeton-nlp/LLM-Shearing.svg?style=social) |
 
 ## Activation Sparsity
+| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Unstructured Pruning                                                                            |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 |Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time| ICML 2024| [Link](https://arxiv.org/abs/2310.17157) |  [Link](https://github.com/FMInference/DejaVu) ![](https://img.shields.io/github/stars/FMInference/DejaVu.svg?style=social) |
-| 2023 |ReLU Strikes Back: Exploiting Activation Sparsity in Large Language Models| ICLR 2024| [Link](https://arxiv.org/abs/2310.04564) |  [Link](https://github.com/FMInference/DejaVu) ![](https://img.shields.io/github/stars/FMInference/DejaVu.svg?style=social) |
+| 2023 |ReLU Strikes Back: Exploiting Activation Sparsity in Large Language Models| ICLR 2024| [Link](https://arxiv.org/abs/2310.04564) | 	N/A |
 
 ---
 # Quantization
