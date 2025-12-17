@@ -1,7 +1,7 @@
 # Awesome-Efficient-LLM
 
 # Toxonomy and Papers
-- [Sparsity and Pruningn(#Sparsity-and-Pruning)
+- [Sparsity and Pruning](#Sparsity-and-Pruning)
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
