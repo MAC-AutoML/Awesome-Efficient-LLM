@@ -1,7 +1,7 @@
 # Awesome-Efficient-LLM
 
 # Toxonomy and Papers
-- [Pruning](#Pruning)
+- [Sparsity and Pruningn(#Sparsity-and-Pruning)
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
@@ -12,7 +12,7 @@
 - [Diffusion Models](#Diffusion-Models)
 
 ---
-# Pruning
+# Sparsity and Pruning
 ## Unstructured Pruning   
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
