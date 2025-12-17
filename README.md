@@ -13,7 +13,8 @@
 
 ---
 # Pruning
-| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Unstructured Pruning                                                                            |
+## Unstructured Pruning   
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
 | 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
@@ -24,12 +25,13 @@
 | 2023 | Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity| ICML 2024| [Link](https://arxiv.org/abs/2310.05175) |         [Link](https://github.com/luuyin/OWL) ![](https://img.shields.io/github/stars/luuyin/OWL.svg?style=social) |
 | 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
 
-| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Semi-structured Pruning                                                                           |
+## Semi-structured Pruning  
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 |
 
 ## Structured Pruning 
-| Year | Title                                                                   | Venue   | Paper                                 | code                                            ## Structured Pruning                                                                            |
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 |LLM-Pruner: On the Structural Pruning of Large Language Models| NeurIPS 2023| [Link](https://arxiv.org/abs/2305.11627) |  [Link](https://github.com/horseee/LLM-Pruner) ![](https://img.shields.io/github/stars/horseee/LLM-Pruner.svg?style=social) |
 | 2023 |Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning| ACL 2024 Findings| [Link](https://arxiv.org/abs/2305.18403) |  [Link](https://github.com/aim-uofa/LoRAPrune) ![](https://img.shields.io/github/stars/aim-uofa/LoRAPrune.svg?style=social) |
