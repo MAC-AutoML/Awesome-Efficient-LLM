@@ -30,8 +30,9 @@
 | 2024 |Shears: Unstructured Sparsity with Neural Low-rank Adapter Search| NAACL 2024| [Link](https://arxiv.org/abs/2404.10934) |[Link](https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning) ![](https://img.shields.io/github/stars/IntelLabs/Hardware-Aware-Automated-Machine-Learning.svg?style=social) |
 | 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
 | 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
-
-
+| 2024 |ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.07831) |[Link](https://github.com/mazumder-lab/ALPS) ![](https://img.shields.io/github/stars/mazumder-lab/ALPS.svg?style=social) |
+| 2024 |Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization|EMNLP 2024| [Link](https://arxiv.org/abs/2406.15524) |[Link](https://github.com/LOG-postech/rethinking-LLM-pruning) ![](https://img.shields.io/github/stars/LOG-postech/rethinking-LLM-pruning.svg?style=social) |
+| 2024 |Pruning Large Language Models with Semi-Structural Adaptive Sparse Training｜AAAI 2025| [Link](https://arxiv.org/abs/2407.20584) |[Link](https://github.com/thu-ml/Adaptive-Sparse-Trainer) ![](https://img.shields.io/github/stars/thu-ml/Adaptive-Sparse-Trainer.svg?style=social) |
 
 
 ## Structured Pruning 
@@ -49,7 +50,11 @@
 | 2024 |Streamlining Redundant Layers to Compress Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2403.19135) |[Link](https://github.com/RUCKBReasoning/LLM-Streamline) ![](https://img.shields.io/github/stars/RUCKBReasoning/LLM-Streamline.svg?style=social) |
 | 2024 |LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models|ICML 2024| [Link](https://arxiv.org/abs/2404.09695) |[Link](https://github.com/lihuang258/LoRAP) ![](https://img.shields.io/github/stars/lihuang258/LoRAP.svg?style=social) |
 | 2024 |Pruning as a Domain-specific LLM Extractor| NAACL 2024 Findings| [Link](https://arxiv.org/abs/2405.06275) |[Link](https://github.com/psunlpgroup/D-Pruner) ![](https://img.shields.io/github/stars/psunlpgroup/D-Pruner.svg?style=social) |
-
+| 2024 |Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient| ACL 2025| [Link](https://arxiv.org/abs/2406.10576) |[Link](https://github.com/ethanygao/backprop-free_LLM_pruning) ![](https://img.shields.io/github/stars/backprop-free_LLM_pruning.svg?style=social) |
+| 2024 |BlockPruner: Fine-grained Pruning for Large Language Models| ACL 2025 Findings| [Link](https://arxiv.org/abs/2406.10594) |[Link](https://github.com/MrGGLS/BlockPruner) ![](https://img.shields.io/github/stars/MrGGLS/BlockPruner.svg?style=social) |
+| 2024 |RankAdaptor: Hierarchical Rank Allocation for Efficient Fine-Tuning Pruned LLMs via Performance Model| NAACL 2024 Findings| [Link](https://aclanthology.org/2025.findings-naacl.321) |N/A |
+| 2024 |Pruning via Merging: Compressing LLMs via Manifold Alignment Based Layer Merging| EMNLP 2024| [Link](https://arxiv.org/abs/2406.16330) |N/A |
+| 2024 |Finding Transformer Circuits with Edge Pruning|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.16778) |[Link](https://github.com/princeton-nlp/Edge-Pruning) ![](https://img.shields.io/github/stars/princeton-nlp/Edge-Pruning.svg?style=social) |
 
 
 ## Activation Sparsity
@@ -58,6 +63,7 @@
 | 2023 |Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time| ICML 2024| [Link](https://arxiv.org/abs/2310.17157) |  [Link](https://github.com/FMInference/DejaVu) ![](https://img.shields.io/github/stars/FMInference/DejaVu.svg?style=social) |
 | 2023 |ReLU Strikes Back: Exploiting Activation Sparsity in Large Language Models| ICLR 2024| [Link](https://arxiv.org/abs/2310.04564) | 	N/A |
 | 2024 |CATS: Contextually-Aware Thresholding for Sparsity in Large Language Models|COLM 2024|[Link](https://arxiv.org/abs/2404.08763) |[Link](https://github.com/ScalingIntelligence/CATS) ![](https://img.shields.io/github/stars/ScalingIntelligence/CATS.svg?style=social) |
+| 2024 |ShadowLLM: Predictor-based Contextual Sparsity for Large Language Models|EMNLP 2024|[Link](https://arxiv.org/abs/2406.16635) |[Link](https://github.com/abdelfattah-lab/shadow_llm) ![](https://img.shields.io/github/stars/abdelfattah-lab/shadow_llm.svg?style=social) |
 | 2024 |Training-Free Activation Sparsity in Large Language Models|ICLR 2025|[Link](https://arxiv.org/abs/2408.14690) | [Link](https://github.com/FasterDecoding/TEAL) ![](https://img.shields.io/github/stars/FasterDecoding/TEAL.svg?style=social) |
 | 2024 |Sparsing Law: Towards Large Language Models with Greater Activation Sparsity|ICML 2025|[Link](https://arxiv.org/abs/2411.02335) |[Link](https://github.com/thunlp/SparsingLaw) ![](https://img.shields.io/github/stars/thunlp/SparsingLaw.svg?style=social) |
 | 2025 |La RoSA: Enhancing LLM Efficiency via Layerwise Rotated Sparse Activation|ICML 2025|[Link](https://openreview.net/forum?id=1b6NNpFYI4) |N/A |
