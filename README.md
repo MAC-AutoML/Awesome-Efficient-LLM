@@ -26,6 +26,12 @@
 | 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
 | 2024 |Plug-and-Play: An Efficient Post-training Pruning Method for Large Language Models| ICLR 2024| [Link](https://openreview.net/forum?id=Tr0lPx9woF) |         [Link](https://github.com/biomedical-cybernetics/Relative-importance-and-activation-pruning) ![](https://img.shields.io/github/stars/biomedical-cybernetics/Relative-importance-and-activation-pruning.svg?style=social) |
 | 2024 |Fast and Optimal Weight Update for Pruned Large Language Models| TMLR 2024| [Link](https://arxiv.org/abs/2401.02938) |[Link](https://github.com/fmfi-compbio/admm-pruning) ![](https://img.shields.io/github/stars/fmfi-compbio/admm-pruning.svg?style=social) |
+| 2024 |SparseLLM: Towards Global Pruning for Pre-trained Language Models| NeurIPS 2024| [Link](https://arxiv.org/abs/2402.17946) |[Link](https://github.com/BaiTheBest/SparseLLM) ![](https://img.shields.io/github/stars/BaiTheBest/SparseLLM.svg?style=social) |
+| 2024 |Shears: Unstructured Sparsity with Neural Low-rank Adapter Search| NAACL 2024| [Link](https://arxiv.org/abs/2404.10934) |[Link](https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning) ![](https://img.shields.io/github/stars/IntelLabs/Hardware-Aware-Automated-Machine-Learning.svg?style=social) |
+| 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
+| 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
+
+
 
 
 ## Structured Pruning 
@@ -35,6 +41,15 @@
 | 2023 |Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning| ACL 2024 Findings| [Link](https://arxiv.org/abs/2305.18403) |  [Link](https://github.com/aim-uofa/LoRAPrune) ![](https://img.shields.io/github/stars/aim-uofa/LoRAPrune.svg?style=social) |
 | 2023 |Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning| ICLR 2024| [Link](https://arxiv.org/abs/2310.06694) |         [Link](https://github.com/princeton-nlp/LLM-Shearing) ![](https://img.shields.io/github/stars/princeton-nlp/LLM-Shearing.svg?style=social) |
 | 2023 |Fluctuation-based Adaptive Structured Pruning for Large Language Models| AAAI 2024| [Link](https://arxiv.org/abs/2312.11983) |         [Link](https://github.com/CASIA-IVA-Lab/FLAP) ![](https://img.shields.io/github/stars/CASIA-IVA-Lab/FLAP.svg?style=social) |
+| 2024 |SliceGPT: Compress Large Language Models by Deleting Rows and Columns| ICLR 2024| [Link](https://arxiv.org/abs/2401.15024) |         [Link](https://github.com/microsoft/TransformerCompression) ![](https://img.shields.io/github/stars/microsoft/TransformerCompression.svg?style=social) |
+| 2024 |APT: Adaptive Pruning and Tuning Pretrained Language Models for Efficient Training and Inference| ICML 2024| [Link](https://arxiv.org/abs/2401.12200) |         [Link](https://github.com/ROIM1998/APT) ![](https://img.shields.io/github/stars/ROIM1998/APT.svg?style=social) |
+| 2024 |Shortened LLaMA: A Simple Depth Pruning for Large Language Models| ICLR 2024 workshop| [Link](https://arxiv.org/abs/2402.02834) |[Link](https://github.com/Nota-NetsPresso/shortened-llm) ![](https://img.shields.io/github/stars/Nota-NetsPresso/shortened-llm.svg?style=social) |
+| 2024 |LaCo: Large Language Model Pruning via Layer Collapse| EMNLP 2024 Findings| [Link](https://arxiv.org/abs/2402.02834) |[Link](https://github.com/yangyifei729/LaCo) ![](https://img.shields.io/github/stars/yangyifei729/LaCo.svg?style=social) |
+| 2024 |Shortgpt: Layers in large language models are more redundant than you expect|ACL 2025 Findings| [Link](https://arxiv.org/abs/2403.03853) |[Link](https://github.com/sramshetty/ShortGPT) ![](https://img.shields.io/github/stars/sramshetty/ShortGPT.svg?style=social) |
+| 2024 |Streamlining Redundant Layers to Compress Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2403.19135) |[Link](https://github.com/RUCKBReasoning/LLM-Streamline) ![](https://img.shields.io/github/stars/RUCKBReasoning/LLM-Streamline.svg?style=social) |
+| 2024 |LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models|ICML 2024| [Link](https://arxiv.org/abs/2404.09695) |[Link](https://github.com/lihuang258/LoRAP) ![](https://img.shields.io/github/stars/lihuang258/LoRAP.svg?style=social) |
+| 2024 |Pruning as a Domain-specific LLM Extractor| NAACL 2024 Findings| [Link](https://arxiv.org/abs/2405.06275) |[Link](https://github.com/psunlpgroup/D-Pruner) ![](https://img.shields.io/github/stars/psunlpgroup/D-Pruner.svg?style=social) |
+
 
 
 ## Activation Sparsity
