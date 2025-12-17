@@ -37,6 +37,8 @@
 | 2024 |EvoPress: Accurate Dynamic Model Compression via Evolutionary Search|ICML 2025| [Link](https://arxiv.org/abs/2410.14649) |[Link](https://github.com/IST-DASLab/EvoPress) ![](https://img.shields.io/github/stars/IST-DASLab/EvoPress.svg?style=social) |
 | 2024 |Pruning Foundation Models for High Accuracy without Retraining|EMNLP 2024 findings| [Link](https://arxiv.org/abs/2410.15567) |[Link](https://github.com/piuzha/APT) ![](https://img.shields.io/github/stars/piuzha/APT.svg?style=social) |
 | 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
+| 2025 |Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2501.19090) |[Link](https://github.com/biomedical-cybernetics/pivoting-factorization) ![](https://img.shields.io/github/stars/biomedical-cybernetics/pivoting-factorization.svg?style=social) |
+| 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
 
 ## Structured Pruning 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -66,6 +68,7 @@
 | 2024 |Change Is the Only Constant: Dynamic LLM Slicing based on Layer Redundancy |EMNLP 2024 Findings| [Link](https://arxiv.org/abs/2411.03513) |[Link](https://github.com/RazvanDu/DynamicSlicing) ![](https://img.shields.io/github/stars/RazvanDu/DynamicSlicing.svg?style=social) |
 | 2024 |LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion|ACL 2024| [Link](https://aclanthology.org/2024.acl-long.434) | N/A|
 | 2024 |TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs|ACL 2025| [Link](https://arxiv.org/abs/2412.11242) | [Link](https://github.com/snyhlxde1/TrimLLM) ![](https://img.shields.io/github/stars/snyhlxde1/TrimLLM.svg?style=social)|
+| 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 
 
 ## Activation Sparsity
