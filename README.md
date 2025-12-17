@@ -32,7 +32,7 @@
 | 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 | 2024 |ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.07831) |[Link](https://github.com/mazumder-lab/ALPS) ![](https://img.shields.io/github/stars/mazumder-lab/ALPS.svg?style=social) |
 | 2024 |Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization|EMNLP 2024| [Link](https://arxiv.org/abs/2406.15524) |[Link](https://github.com/LOG-postech/rethinking-LLM-pruning) ![](https://img.shields.io/github/stars/LOG-postech/rethinking-LLM-pruning.svg?style=social) |
-| 2024 |Pruning Large Language Models with Semi-Structural Adaptive Sparse Training｜AAAI 2025| [Link](https://arxiv.org/abs/2407.20584) |[Link](https://github.com/thu-ml/Adaptive-Sparse-Trainer) ![](https://img.shields.io/github/stars/thu-ml/Adaptive-Sparse-Trainer.svg?style=social) |
+| 2024 |Pruning Large Language Models with Semi-Structural Adaptive Sparse Training|AAAI 2025| [Link](https://arxiv.org/abs/2407.20584) |[Link](https://github.com/thu-ml/Adaptive-Sparse-Trainer) ![](https://img.shields.io/github/stars/thu-ml/Adaptive-Sparse-Trainer.svg?style=social) |
 
 
 ## Structured Pruning 
