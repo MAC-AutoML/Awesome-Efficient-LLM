@@ -47,6 +47,8 @@
 | 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
 | 2025 |3BASiL: An Algorithmic Framework for Sparse plus Low-Rank Compression of LLMs|NeurIPS 2025| [Link](https://openreview.net/forum?id=byNNv5Et10) |[Link](https://github.com/mazumder-lab/3BASiL) ![](https://img.shields.io/github/stars/mazumder-lab/3BASiL.svg?style=social) |
 | 2025 |DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs|NeurIPS 2025| [Link](https://arxiv.org/abs/2506.20194) |[Link](https://github.com/RuokaiYin/DuoGPT) ![](https://img.shields.io/github/stars/RuokaiYin/DuoGPT.svg?style=social) |
+| 2025 |Lua-LLM: Learning Unstructured-Sparsity Allocation for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=CA1xVSvn72) |N/A |
+| 2025 |PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.10136) |[Link](https://github.com/lanchengzou/PermLLM) ![](https://img.shields.io/github/stars/lanchengzou/PermLLM.svg?style=social) |
 
 ## Structured Pruning 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
