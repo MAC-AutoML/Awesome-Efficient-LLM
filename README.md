@@ -76,6 +76,7 @@
 | 2024 |Pruning via Merging: Compressing LLMs via Manifold Alignment Based Layer Merging| EMNLP 2024| [Link](https://arxiv.org/abs/2406.16330) |N/A |
 | 2024 |Finding Transformer Circuits with Edge Pruning|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.16778) |[Link](https://github.com/princeton-nlp/Edge-Pruning) ![](https://img.shields.io/github/stars/princeton-nlp/Edge-Pruning.svg?style=social) |
 | 2024 |MoDeGPT: Modular Decomposition for Large Language Model Compression|ICLR 2025| [Link](https://arxiv.org/abs/2408.09632) |[Link](https://github.com/cbacary/MoDeGPT) ![](https://img.shields.io/github/stars/cbacary/MoDeGPT.svg?style=social) |
+| 2024 |The Unreasonable Ineffectiveness of the Deeper Layers|ICLR 2025| [Link](https://arxiv.org/abs/2403.17887) | N/A|
 | 2024 |PAT: Pruning-Aware Tuning for Large Language Models|AAAI 2025| [Link](https://arxiv.org/abs/2408.14721) |[Link](https://github.com/kriskrisliu/PAT_Pruning-Aware-Tuning) ![](https://img.shields.io/github/stars/kriskrisliu/PAT_Pruning-Aware-Tuning.svg?style=social) |
 | 2024 |DISP-LLM: Dimension-Independent Structural Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.11988) |[Link](https://github.com/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning) ![](https://img.shields.io/github/stars/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning.svg?style=social) |
 | 2024 |Search for Efficient Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2409.17372) |[Link](https://github.com/shawnricecake/search-llm) ![](https://img.shields.io/github/stars/shawnricecake/search-llm.svg?style=social) |
@@ -89,6 +90,10 @@
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 | 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
 | 2025 |A Simple Linear Patch Revives Layer-Pruned Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.24680) |[Link](https://github.com/chenxinrui-tsinghua/LinearPatch) ![](https://img.shields.io/github/stars/chenxinrui-tsinghua/LinearPatch.svg?style=social) |
+| 2025 |ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.02819) |[Link](https://github.com/mts-ai/ReplaceMe) ![](https://img.shields.io/github/stars/mts-ai/ReplaceMe.svg?style=social) |
+| 2025 |Restoring Pruned Large Language Models via Lost Component Compensation|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.21834) |[Link](https://github.com/zijian678/restorelcc) ![](https://img.shields.io/github/stars/zijian678/restorelcc.svg?style=social) |
+
+
 
 
 ## Activation Sparsity
