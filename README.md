@@ -45,6 +45,8 @@
 | 2025 |Dynamic Low-Rank Sparse Adaptation for Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2502.14816) |[Link](https://github.com/wzhuang-xmu/LoSA) ![](https://img.shields.io/github/stars/wzhuang-xmu/LoSA.svg?style=social) |
 | 2025 |Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2501.19090) |[Link](https://github.com/biomedical-cybernetics/pivoting-factorization) ![](https://img.shields.io/github/stars/biomedical-cybernetics/pivoting-factorization.svg?style=social) |
 | 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
+| 2025 |3BASiL: An Algorithmic Framework for Sparse plus Low-Rank Compression of LLMs|NeurIPS 2025| [Link](https://openreview.net/forum?id=byNNv5Et10) |[Link](https://github.com/mazumder-lab/3BASiL) ![](https://img.shields.io/github/stars/mazumder-lab/3BASiL.svg?style=social) |
+| 2025 |DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs|NeurIPS 2025| [Link](https://arxiv.org/abs/2506.20194) |[Link](https://github.com/RuokaiYin/DuoGPT) ![](https://img.shields.io/github/stars/RuokaiYin/DuoGPT.svg?style=social) |
 
 ## Structured Pruning 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
