@@ -38,6 +38,7 @@
 | 2024 |Pruning Foundation Models for High Accuracy without Retraining|EMNLP 2024 findings| [Link](https://arxiv.org/abs/2410.15567) |[Link](https://github.com/piuzha/APT) ![](https://img.shields.io/github/stars/piuzha/APT.svg?style=social) |
 | 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
 | 2024 |Beyond Linear Approximations: A Novel Pruning Approach for Attention Matrix|ICLR 2025| [Link](https://arxiv.org/abs/2410.11261) |N/A |
+| 2024 |OATS: Outlier-Aware Pruning Through Sparse and Low Rank Decomposition|ICLR 2025| [Link](https://arxiv.org/abs/2409.13652) |[Link](https://github.com/stephenqz/OATS) ![](https://img.shields.io/github/stars/stephenqz/OATS.svg?style=social) |
 | 2025 |Adaptive Pruning of Pretrained Transformer via Differential Inclusions|ICLR 2025| [Link](https://arxiv.org/abs/2501.03289) |[Link](https://github.com/yizhuoDi/Solution-Path-Pruning) ![](https://img.shields.io/github/stars/yizhuoDi/Solution-Path-Pruning.svg?style=social) |
 | 2025 |Dynamic Low-Rank Sparse Adaptation for Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2502.14816) |[Link](https://github.com/wzhuang-xmu/LoSA) ![](https://img.shields.io/github/stars/wzhuang-xmu/LoSA.svg?style=social) |
 | 2025 |Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2501.19090) |[Link](https://github.com/biomedical-cybernetics/pivoting-factorization) ![](https://img.shields.io/github/stars/biomedical-cybernetics/pivoting-factorization.svg?style=social) |
@@ -73,7 +74,8 @@
 | 2024 |TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs|ACL 2025| [Link](https://arxiv.org/abs/2412.11242) | [Link](https://github.com/snyhlxde1/TrimLLM) ![](https://img.shields.io/github/stars/snyhlxde1/TrimLLM.svg?style=social)|
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 | 2025 |LLaMaFlex: Many-in-one LLMs via Generalized Pruning and Weight Sharing|ICLR 2025| [Link](https://openreview.net/forum?id=AyC4uxx2HW) |N/A|
-
+| 2025 |Probe Pruning: Accelerating LLMs through Dynamic Pruning via Model-Probing|ICLR 2025| [Link](https://arxiv.org/abs/2502.15618) | [Link](https://github.com/Qi-Le1/Probe_Pruning) ![](https://img.shields.io/github/stars/Qi-Le1/Probe_Pruning.svg?style=social)|
+| 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 
 
 
