@@ -49,6 +49,8 @@
 | 2025 |DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs|NeurIPS 2025| [Link](https://arxiv.org/abs/2506.20194) |[Link](https://github.com/RuokaiYin/DuoGPT) ![](https://img.shields.io/github/stars/RuokaiYin/DuoGPT.svg?style=social) |
 | 2025 |Lua-LLM: Learning Unstructured-Sparsity Allocation for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=CA1xVSvn72) |N/A |
 | 2025 |PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.10136) |[Link](https://github.com/lanchengzou/PermLLM) ![](https://img.shields.io/github/stars/lanchengzou/PermLLM.svg?style=social) |
+| 2025 |TSENOR: Highly-Efficient Algorithm for Finding Transposable N:M Sparse Masks|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.23949) |[Link](https://github.com/mazumder-lab/TSENOR) ![](https://img.shields.io/github/stars/mazumder-lab/TSENOR.svg?style=social) |
+
 
 ## Structured Pruning 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -82,7 +84,7 @@
 | 2025 |LLaMaFlex: Many-in-one LLMs via Generalized Pruning and Weight Sharing|ICLR 2025| [Link](https://openreview.net/forum?id=AyC4uxx2HW) |N/A|
 | 2025 |Probe Pruning: Accelerating LLMs through Dynamic Pruning via Model-Probing|ICLR 2025| [Link](https://arxiv.org/abs/2502.15618) | [Link](https://github.com/Qi-Le1/Probe_Pruning) ![](https://img.shields.io/github/stars/Qi-Le1/Probe_Pruning.svg?style=social)|
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
-
+| 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
 
 
 ## Activation Sparsity
@@ -98,6 +100,7 @@
 | 2025 |R-Sparse: Rank-Aware Activation Sparsity for Efficient LLM Inference|ICLR 2025|[Link](https://arxiv.org/abs/2504.19449) | [Link](https://github.com/VITA-Group/R-Sparse) ![](https://img.shields.io/github/stars/VITA-Group/R-Sparse.svg?style=social) |
 | 2024 |Sirius: Contextual Sparsity with Correction for Efficient LLMs|NeurIPS 2024| [Link](https://arxiv.org/abs/2409.03856) |[Link](https://github.com/Infini-AI-Lab/Sirius) ![](https://img.shields.io/github/stars/Infini-AI-Lab/Sirius.svg?style=social) |
 | 2024 |Learn To be Efficient: Build Structured Sparsity in Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2402.06126) |[Link](https://github.com/haizhongzheng/LTE) ![](https://img.shields.io/github/stars/haizhongzheng/LTE.svg?style=social) |
+| 2025 |Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.14884) |[Link](https://github.com/susavlsh10/Polar-Sparsity) ![](https://img.shields.io/github/stars/susavlsh10/Polar-Sparsity.svg?style=social) |
 
 
 ---
