@@ -50,6 +50,8 @@
 | 2025 |Lua-LLM: Learning Unstructured-Sparsity Allocation for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=CA1xVSvn72) |N/A |
 | 2025 |PermLLM: Learnable Channel Permutation for N:M Sparse Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.10136) |[Link](https://github.com/lanchengzou/PermLLM) ![](https://img.shields.io/github/stars/lanchengzou/PermLLM.svg?style=social) |
 | 2025 |TSENOR: Highly-Efficient Algorithm for Finding Transposable N:M Sparse Masks|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.23949) |[Link](https://github.com/mazumder-lab/TSENOR) ![](https://img.shields.io/github/stars/mazumder-lab/TSENOR.svg?style=social) |
+| 2025 |DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.23049) |[Link](https://github.com/Axel-gu/DenoiseRotator) ![](https://img.shields.io/github/stars/Axel-gu/DenoiseRotator.svg?style=social) |
+| 2025 |Multi-Objective One-Shot Pruning for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=aNpj43Uh35) |N/A |
 
 
 ## Structured Pruning 
@@ -66,6 +68,7 @@
 | 2024 |Shortgpt: Layers in large language models are more redundant than you expect|ACL 2025 Findings| [Link](https://arxiv.org/abs/2403.03853) |[Link](https://github.com/sramshetty/ShortGPT) ![](https://img.shields.io/github/stars/sramshetty/ShortGPT.svg?style=social) |
 | 2024 |Streamlining Redundant Layers to Compress Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2403.19135) |[Link](https://github.com/RUCKBReasoning/LLM-Streamline) ![](https://img.shields.io/github/stars/RUCKBReasoning/LLM-Streamline.svg?style=social) |
 | 2024 |LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models|ICML 2024| [Link](https://arxiv.org/abs/2404.09695) |[Link](https://github.com/lihuang258/LoRAP) ![](https://img.shields.io/github/stars/lihuang258/LoRAP.svg?style=social) |
+| 2024 |SLEB: Streamlining LLMs through Redundancy Verification and Elimination of Transformer Blocks|ICML 2024| [Link](https://arxiv.org/abs/2402.09025) |[Link](https://github.com/jiwonsong-dev/SLEB) ![](https://img.shields.io/github/stars/jiwonsong-dev/SLEB.svg?style=social) |
 | 2024 |Pruning as a Domain-specific LLM Extractor| NAACL 2024 Findings| [Link](https://arxiv.org/abs/2405.06275) |[Link](https://github.com/psunlpgroup/D-Pruner) ![](https://img.shields.io/github/stars/psunlpgroup/D-Pruner.svg?style=social) |
 | 2024 |Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient| ACL 2025| [Link](https://arxiv.org/abs/2406.10576) |[Link](https://github.com/ethanygao/backprop-free_LLM_pruning) ![](https://img.shields.io/github/stars/ethanygao/backprop-free_LLM_pruning.svg?style=social) |
 | 2024 |BlockPruner: Fine-grained Pruning for Large Language Models| ACL 2025 Findings| [Link](https://arxiv.org/abs/2406.10594) |[Link](https://github.com/MrGGLS/BlockPruner) ![](https://img.shields.io/github/stars/MrGGLS/BlockPruner.svg?style=social) |
@@ -85,6 +88,7 @@
 | 2025 |Probe Pruning: Accelerating LLMs through Dynamic Pruning via Model-Probing|ICLR 2025| [Link](https://arxiv.org/abs/2502.15618) | [Link](https://github.com/Qi-Le1/Probe_Pruning) ![](https://img.shields.io/github/stars/Qi-Le1/Probe_Pruning.svg?style=social)|
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 | 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
+| 2025 |A Simple Linear Patch Revives Layer-Pruned Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.24680) |[Link](https://github.com/chenxinrui-tsinghua/LinearPatch) ![](https://img.shields.io/github/stars/chenxinrui-tsinghua/LinearPatch.svg?style=social) |
 
 
 ## Activation Sparsity
