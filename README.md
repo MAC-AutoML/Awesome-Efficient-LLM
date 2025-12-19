@@ -101,7 +101,13 @@
 | 2025 |ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.02819) |[Link](https://github.com/mts-ai/ReplaceMe) ![](https://img.shields.io/github/stars/mts-ai/ReplaceMe.svg?style=social) |
 | 2025 |Restoring Pruned Large Language Models via Lost Component Compensation|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.21834) |[Link](https://github.com/zijian678/restorelcc) ![](https://img.shields.io/github/stars/zijian678/restorelcc.svg?style=social) |
 
-
+## Joint Sparsification and Quantization
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2024 |Effective Interplay between Sparsity and Quantization: From Theory to Practice|ICLR 2025| [Link](https://arxiv.org/abs/2405.20935) |[Link](https://github.com/parsa-epfl/quantization-sparsity-interplay) ![](https://img.shields.io/github/stars/parsa-epfl/quantization-sparsity-interplay.svg?style=social) |
+| 2024 | Compressing large language models by joint sparsification and quantization|ICML 2024| [Link](https://openreview.net/forum?id=sCGRhnuMUJ) |[Link](https://github.com/uanu2002/JSQ) ![](https://img.shields.io/github/stars/uanu2002/JSQ.svg?style=social) |
+| 2024 |SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression|ICML 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/Paramathic/slim) ![](https://img.shields.io/github/stars/Paramathic/slim.svg?style=social) |
+| 2025 |Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs |arxiv 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/csguoh/OBR) ![](https://img.shields.io/github/stars/csguoh/OBR.svg?style=social) |
 
 
 ## Activation Sparsity
