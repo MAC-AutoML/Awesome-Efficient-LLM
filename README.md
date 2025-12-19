@@ -2,6 +2,11 @@
 
 # Toxonomy and Papers
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
+  - [Unstructured Pruning](#Unstructured-Pruning)
+  - [Semi-structured Pruning](#Semi-structured-Pruning)
+  - [Structured Pruning](#Structured-Pruning)
+  - [Activation Sparsity](#Activation-Sparsity)
+  - [Joint Sparsification and Quantization](#Joint-Sparsification-and-Quantization)
 - [Quantization](#Quantization)
   - [LLM Quantization](#LLM-Quantization)
   - [VLM Quantization](#VLM-Quantization)
