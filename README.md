@@ -45,6 +45,7 @@
 | 2025 |Adaptive Pruning of Pretrained Transformer via Differential Inclusions|ICLR 2025| [Link](https://arxiv.org/abs/2501.03289) |[Link](https://github.com/yizhuoDi/Solution-Path-Pruning) ![](https://img.shields.io/github/stars/yizhuoDi/Solution-Path-Pruning.svg?style=social) |
 | 2025 |Dynamic Low-Rank Sparse Adaptation for Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2502.14816) |[Link](https://github.com/wzhuang-xmu/LoSA) ![](https://img.shields.io/github/stars/wzhuang-xmu/LoSA.svg?style=social) |
 | 2025 |Pivoting Factorization: A Compact Meta Low-Rank Representation of Sparsity for Efficient Inference in Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2501.19090) |[Link](https://github.com/biomedical-cybernetics/pivoting-factorization) ![](https://img.shields.io/github/stars/biomedical-cybernetics/pivoting-factorization.svg?style=social) |
+| 2025 | Targeted Low-rank Refinement: Enhancing Sparse Language Models with Precision|ICML 2025| [Link](https://openreview.net/forum?id=S0ncZdwcLt) |N/A |
 | 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
 | 2025 |3BASiL: An Algorithmic Framework for Sparse plus Low-Rank Compression of LLMs|NeurIPS 2025| [Link](https://openreview.net/forum?id=byNNv5Et10) |[Link](https://github.com/mazumder-lab/3BASiL) ![](https://img.shields.io/github/stars/mazumder-lab/3BASiL.svg?style=social) |
 | 2025 |DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs|NeurIPS 2025| [Link](https://arxiv.org/abs/2506.20194) |[Link](https://github.com/RuokaiYin/DuoGPT) ![](https://img.shields.io/github/stars/RuokaiYin/DuoGPT.svg?style=social) |
@@ -101,15 +102,6 @@
 | 2025 |ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.02819) |[Link](https://github.com/mts-ai/ReplaceMe) ![](https://img.shields.io/github/stars/mts-ai/ReplaceMe.svg?style=social) |
 | 2025 |Restoring Pruned Large Language Models via Lost Component Compensation|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.21834) |[Link](https://github.com/zijian678/restorelcc) ![](https://img.shields.io/github/stars/zijian678/restorelcc.svg?style=social) |
 
-## Joint Sparsification and Quantization
-| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
-| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 2024 |Effective Interplay between Sparsity and Quantization: From Theory to Practice|ICLR 2025| [Link](https://arxiv.org/abs/2405.20935) |[Link](https://github.com/parsa-epfl/quantization-sparsity-interplay) ![](https://img.shields.io/github/stars/parsa-epfl/quantization-sparsity-interplay.svg?style=social) |
-| 2024 | Compressing large language models by joint sparsification and quantization|ICML 2024| [Link](https://openreview.net/forum?id=sCGRhnuMUJ) |[Link](https://github.com/uanu2002/JSQ) ![](https://img.shields.io/github/stars/uanu2002/JSQ.svg?style=social) |
-| 2024 |SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression|ICML 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/Paramathic/slim) ![](https://img.shields.io/github/stars/Paramathic/slim.svg?style=social) |
-| 2025 |Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs |arxiv 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/csguoh/OBR) ![](https://img.shields.io/github/stars/csguoh/OBR.svg?style=social) |
-
-
 ## Activation Sparsity
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -125,6 +117,13 @@
 | 2024 |Learn To be Efficient: Build Structured Sparsity in Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2402.06126) |[Link](https://github.com/haizhongzheng/LTE) ![](https://img.shields.io/github/stars/haizhongzheng/LTE.svg?style=social) |
 | 2025 |Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable Contextual Sparsity|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.14884) |[Link](https://github.com/susavlsh10/Polar-Sparsity) ![](https://img.shields.io/github/stars/susavlsh10/Polar-Sparsity.svg?style=social) |
 
+## Joint Sparsification and Quantization
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2024 |Effective Interplay between Sparsity and Quantization: From Theory to Practice|ICLR 2025| [Link](https://arxiv.org/abs/2405.20935) |[Link](https://github.com/parsa-epfl/quantization-sparsity-interplay) ![](https://img.shields.io/github/stars/parsa-epfl/quantization-sparsity-interplay.svg?style=social) |
+| 2024 | Compressing large language models by joint sparsification and quantization|ICML 2024| [Link](https://openreview.net/forum?id=sCGRhnuMUJ) |[Link](https://github.com/uanu2002/JSQ) ![](https://img.shields.io/github/stars/uanu2002/JSQ.svg?style=social) |
+| 2024 |SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression|ICML 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/Paramathic/slim) ![](https://img.shields.io/github/stars/Paramathic/slim.svg?style=social) |
+| 2025 |Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs |arxiv 2025| [Link](https://arxiv.org/abs/2410.09615) |[Link](https://github.com/csguoh/OBR) ![](https://img.shields.io/github/stars/csguoh/OBR.svg?style=social) |
 
 ---
 # Quantization
