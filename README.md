@@ -3,7 +3,7 @@
 # Toxonomy and Papers
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
   - [Unstructured Pruning](#Unstructured-Pruning)
-    - [Importance Score](#Importance-Score)
+    - [Mask Determination](#Mask-Determination)
     - [Weight Update](#Weight-Update)
     - [Sparsity Rate Allocation](#Sparsity-Rate-Allocation)
     - [Calibration Dataset](#Calibration-Dataset)
@@ -24,13 +24,18 @@
 ---
 # Sparsity and Pruning
 ## Unstructured Pruning
-### Importance Score
+### Mask Determination
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
 | 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
+| 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
+| 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 
 ### Weight Update
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2023 | Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs | ICLR 2024| [Link](https://arxiv.org/abs/2310.08915) |         [Link](https://github.com/zyxxmu/DSnoT) ![](https://img.shields.io/github/stars/zyxxmu/DSnoT.svg?style=social) |
 
 ### Sparsity Rate Allocation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -49,23 +54,20 @@
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2024 |Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning|EMNLP 2024| [Link](https://arxiv.org/abs/2410.07461) |[Link](https://github.com/abx393/llm-pruning-calibration-data) ![](https://img.shields.io/github/stars/abx393/llm-pruning-calibration-data.svg?style=social) |
 | 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
+| 2024 |On the Impact of Calibration Data in Post-training Quantization and Pruning| ACL 2024| [Link](https://aclanthology.org/2024.acl-long.544) |         [Link](https://github.com/mlsw/llm-compression-calibration) ![](https://img.shields.io/github/stars/mlsw/llm-compression-calibration.svg?style=social) |
 
 ### Other Topic
 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 2023 | Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs | ICLR 2024| [Link](https://arxiv.org/abs/2310.08915) |         [Link](https://github.com/zyxxmu/DSnoT) ![](https://img.shields.io/github/stars/zyxxmu/DSnoT.svg?style=social) |
 | 2023 | Compressing LLMs: The Truth is Rarely Pure and Never Simple| ICLR 2024| [Link](https://arxiv.org/abs/2310.01382) |         [Link](https://github.com/VITA-Group/llm-kick) ![](https://img.shields.io/github/stars/VITA-Group/llm-kick.svg?style=social) |
 | 2023 | Junk DNA Hypothesis: Pruning Small Pre-Trained Weights Irreversibly andMonotonically Impairs “Difficult" Downstream Tasks in LLMs| ICML 2024| [Link](https://arxiv.org/abs/2310.02277) |         [Link](https://github.com/VITA-Group/Junk_DNA_Hypothesis) ![](https://img.shields.io/github/stars/VITA-Group/Junk_DNA_Hypothesis.svg?style=social) |
 | 2023 |The LLM Surgeon| ICLR 2024| [Link](https://arxiv.org/pdf/2312.17244) |         [Link](https://github.com/Qualcomm-AI-research/llm-surgeon) ![](https://img.shields.io/github/stars/Qualcomm-AI-research/llm-surgeon.svg?style=social) |
-| 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
 | 2024 |WRP: Weight Recover Prune for Structured Sparsity| ACL 2024| [Link](https://aclanthology.org/2024.acl-long.347) |         [Link](https://github.com/TanZhendong/WRP) ![](https://img.shields.io/github/stars/TanZhendong/WRP.svg?style=social) |
-| 2024 |On the Impact of Calibration Data in Post-training Quantization and Pruning| ACL 2024| [Link](https://aclanthology.org/2024.acl-long.544) |         [Link](https://github.com/mlsw/llm-compression-calibration) ![](https://img.shields.io/github/stars/mlsw/llm-compression-calibration.svg?style=social) |
 | 2024 |Fast and Optimal Weight Update for Pruned Large Language Models| TMLR 2024| [Link](https://arxiv.org/abs/2401.02938) |[Link](https://github.com/fmfi-compbio/admm-pruning) ![](https://img.shields.io/github/stars/fmfi-compbio/admm-pruning.svg?style=social) |
 | 2024 |SparseLLM: Towards Global Pruning for Pre-trained Language Models| NeurIPS 2024| [Link](https://arxiv.org/abs/2402.17946) |[Link](https://github.com/BaiTheBest/SparseLLM) ![](https://img.shields.io/github/stars/BaiTheBest/SparseLLM.svg?style=social) |
 | 2024 |Shears: Unstructured Sparsity with Neural Low-rank Adapter Search| NAACL 2024| [Link](https://arxiv.org/abs/2404.10934) |[Link](https://github.com/IntelLabs/Hardware-Aware-Automated-Machine-Learning) ![](https://img.shields.io/github/stars/IntelLabs/Hardware-Aware-Automated-Machine-Learning.svg?style=social) |
 | 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
-| 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 | 2024 |ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.07831) |[Link](https://github.com/mazumder-lab/ALPS) ![](https://img.shields.io/github/stars/mazumder-lab/ALPS.svg?style=social) |
 | 2024 |Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization|EMNLP 2024| [Link](https://arxiv.org/abs/2406.15524) |[Link](https://github.com/LOG-postech/rethinking-LLM-pruning) ![](https://img.shields.io/github/stars/LOG-postech/rethinking-LLM-pruning.svg?style=social) |
 | 2024 |Pruning Foundation Models for High Accuracy without Retraining|EMNLP 2024 findings| [Link](https://arxiv.org/abs/2410.15567) |[Link](https://github.com/piuzha/APT) ![](https://img.shields.io/github/stars/piuzha/APT.svg?style=social) |
