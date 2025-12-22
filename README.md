@@ -4,6 +4,7 @@
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
   - [Unstructured Pruning](#Unstructured-Pruning)
     - [Sparsity Rate Allocation](#Sparsity-Rate-Allocation)
+    - [Other Topic](Other-Topic#)
   - [Semi-structured Pruning](#Semi-structured-Pruning)
   - [Structured Pruning](#Structured-Pruning)
   - [Activation Sparsity](#Activation-Sparsity)
