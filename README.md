@@ -19,11 +19,15 @@
 ---
 # Sparsity and Pruning
 ## Unstructured Pruning   
-## Sparsity Rate Allocation
+### Sparsity Rate Allocation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2024 |ALS: Adaptive Layer Sparsity for Large Language Models via Activation Correlation Assessment|NeurIPS 2024| [Link](https://openreview.net/forum?id=Jup0qZxH7U) |[Link](https://github.com/lliai/ALS) ![](https://img.shields.io/github/stars/lliai/ALS.svg?style=social) |
 | 2024 |Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models|NeurIPS 2024| [Link](https://openreview.net/forum?id=rgtrYVC9n4) |[Link](https://github.com/lliai/DSA) ![](https://img.shields.io/github/stars/lliai/DSA.svg?style=social) |
+| 2024 |AlphaPruning: Using Heavy-Tailed Self Regularization Theory for Improved Layer-wise Pruning of Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.10912) |[Link](https://github.com/haiquanlu/AlphaPruning) ![](https://img.shields.io/github/stars/haiquanlu/AlphaPruning.svg?style=social) |
+| 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
+| 2025 |Lua-LLM: Learning Unstructured-Sparsity Allocation for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=CA1xVSvn72) |N/A |
+
 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -61,14 +65,11 @@
 | 2025 |SAFE: Finding Sparse and Flat Minima to Improve Pruning|ICML 2025| [Link](https://arxiv.org/abs/2506.06866) |[Link](https://github.com/LOG-postech/safe-torch) ![](https://img.shields.io/github/stars/LOG-postech/safe-torch.svg?style=social) |
 | 2025 |An Efficient Pruner for Large Language Model with Theoretical Guarantee|ICML 2025| [Link](https://openreview.net/forum?id=nh9mBCYeF7) |N/A |
 | 2025 |Targeted Low-rank Refinement: Enhancing Sparse Language Models with Precision|ICML 2025| [Link](https://openreview.net/forum?id=S0ncZdwcLt) |N/A |
-| 2025 |Determining Layer-wise Sparsity for Large Language Models Through a Theoretical Perspective|ICML 2025| [Link](https://openreview.net/forum?id=otNB7BzsiR) |[Link](https://github.com/wzhuang-xmu/ATP) ![](https://img.shields.io/github/stars/wzhuang-xmu/ATP.svg?style=social) |
-| 2025 |DLP: Dynamic Layerwise Pruning in Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2505.23807) | [Link](https://github.com/ironartisan/DLP) ![](https://img.shields.io/github/stars/ironartisan/DLP.svg?style=social)|
 | 2025 |1+1>2: A Synergistic Sparse and Low-Rank Compression Method for Large Language Models|EMNLP 2025| [Link](https://arxiv.org/abs/2510.26446) |[Link](https://github.com/mazumder-lab/3BASiL) ![](https://img.shields.io/github/stars/mazumder-lab/3BASiL.svg?style=social) |
 | 2025 |SwiftPrune: Hessian-Free Weight Pruning for Large Language Models|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2501.16376) |N/A |
 | 2025 |Pruning Weights but Not Truth: Safeguarding Truthfulness While Pruning LLMs|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2509.00096) |N/A |
 | 2025 |3BASiL: An Algorithmic Framework for Sparse plus Low-Rank Compression of LLMs|NeurIPS 2025| [Link](https://openreview.net/forum?id=byNNv5Et10) |[Link](https://github.com/mazumder-lab/3BASiL) ![](https://img.shields.io/github/stars/mazumder-lab/3BASiL.svg?style=social) |
 | 2025 |DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs|NeurIPS 2025| [Link](https://arxiv.org/abs/2506.20194) |[Link](https://github.com/RuokaiYin/DuoGPT) ![](https://img.shields.io/github/stars/RuokaiYin/DuoGPT.svg?style=social) |
-| 2025 |Lua-LLM: Learning Unstructured-Sparsity Allocation for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=CA1xVSvn72) |N/A |
 | 2025 |DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.23049) |[Link](https://github.com/Axel-gu/DenoiseRotator) ![](https://img.shields.io/github/stars/Axel-gu/DenoiseRotator.svg?style=social) |
 | 2025 |Multi-Objective One-Shot Pruning for Large Language Models|NeurIPS 2025| [Link](https://openreview.net/forum?id=aNpj43Uh35) |N/A |
 
