@@ -3,8 +3,8 @@
 # Toxonomy and Papers
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
   - [Unstructured Pruning](#Unstructured-Pruning)
-    - [Mask Determination](#Mask-Determination)
-    - [Weight Update](#Weight-Update)
+    - [Pruning without Weight Update](#Pruning-without-Weight-Update)
+    - [Pruning with Weight Update](#Pruning-with-Weight-Update)
     - [Sparsity Rate Allocation](#Sparsity-Rate-Allocation)
     - [Sparse plus Low-Rank Compression](#Sparse-plus-Low-Rank-Compression)
     - [Calibration Dataset](#Calibration-Dataset)
