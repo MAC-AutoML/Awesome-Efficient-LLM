@@ -33,11 +33,11 @@
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
 | 2024 | BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation| ICLR 2024| [Link](https://arxiv.org/abs/2402.16880) |         [Link](https://github.com/OpenGVLab/LLMPrune-BESA) ![](https://img.shields.io/github/stars/OpenGVLab/LLMPrune-BESA.svg?style=social) |
+| 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
 | 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 | 2025 |BaWA: Automatic Optimizing Pruning Metric for Large Language Models with Balanced Weight and Activation|ICML 2025| [Link](https://openreview.net/forum?id=YrCvW1Hx7g) |N/A |
-| 2025 |SwiftPrune: Hessian-Free Weight Pruning for Large Language Models|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2501.16376) |N/A |
-| 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
 | 2025 |SAFE: Finding Sparse and Flat Minima to Improve Pruning|ICML 2025| [Link](https://arxiv.org/abs/2506.06866) |[Link](https://github.com/LOG-postech/safe-torch) ![](https://img.shields.io/github/stars/LOG-postech/safe-torch.svg?style=social) |
+| 2025 |SwiftPrune: Hessian-Free Weight Pruning for Large Language Models|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2501.16376) |N/A |
 
 ### Pruning with Weight Update
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
