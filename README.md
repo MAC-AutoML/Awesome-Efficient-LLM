@@ -19,6 +19,12 @@
 ---
 # Sparsity and Pruning
 ## Unstructured Pruning   
+## Sparsity Rate Allocation
+| Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
+| ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2024 |ALS: Adaptive Layer Sparsity for Large Language Models via Activation Correlation Assessment|NeurIPS 2024| [Link](https://openreview.net/forum?id=Jup0qZxH7U) |[Link](https://github.com/lliai/ALS) ![](https://img.shields.io/github/stars/lliai/ALS.svg?style=social) |
+| 2024 |Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models|NeurIPS 2024| [Link](https://openreview.net/forum?id=rgtrYVC9n4) |[Link](https://github.com/lliai/DSA) ![](https://img.shields.io/github/stars/lliai/DSA.svg?style=social) |
+
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
@@ -38,11 +44,8 @@
 | 2024 |COPAL: Continual Pruning in Large Language Generative Models| ICML 2024| [Link](https://arxiv.org/abs/2405.02347) |N/A|
 | 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 | 2024 |ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.07831) |[Link](https://github.com/mazumder-lab/ALPS) ![](https://img.shields.io/github/stars/mazumder-lab/ALPS.svg?style=social) |
-| 2024 |AlphaPruning: Using Heavy-Tailed Self Regularization Theory for Improved Layer-wise Pruning of Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.10912) |[Link](https://github.com/haiquanlu/AlphaPruning) ![](https://img.shields.io/github/stars/haiquanlu/AlphaPruning.svg?style=social) |
 | 2024 |Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization|EMNLP 2024| [Link](https://arxiv.org/abs/2406.15524) |[Link](https://github.com/LOG-postech/rethinking-LLM-pruning) ![](https://img.shields.io/github/stars/LOG-postech/rethinking-LLM-pruning.svg?style=social) |
 | 2024 |Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning|EMNLP 2024| [Link](https://arxiv.org/abs/2410.07461) |[Link](https://github.com/abx393/llm-pruning-calibration-data) ![](https://img.shields.io/github/stars/abx393/llm-pruning-calibration-data.svg?style=social) |
-| 2024 |ALS: Adaptive Layer Sparsity for Large Language Models via Activation Correlation Assessment|NeurIPS 2024| [Link](https://openreview.net/forum?id=Jup0qZxH7U) |[Link](https://github.com/lliai/ALS) ![](https://img.shields.io/github/stars/lliai/ALS.svg?style=social) |
-| 2024 |Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models|NeurIPS 2024| [Link](https://openreview.net/forum?id=rgtrYVC9n4) |[Link](https://github.com/lliai/DSA) ![](https://img.shields.io/github/stars/lliai/DSA.svg?style=social) |
 | 2024 |EvoPress: Accurate Dynamic Model Compression via Evolutionary Search|ICML 2025| [Link](https://arxiv.org/abs/2410.14649) |[Link](https://github.com/IST-DASLab/EvoPress) ![](https://img.shields.io/github/stars/IST-DASLab/EvoPress.svg?style=social) |
 | 2024 |Pruning Foundation Models for High Accuracy without Retraining|EMNLP 2024 findings| [Link](https://arxiv.org/abs/2410.15567) |[Link](https://github.com/piuzha/APT) ![](https://img.shields.io/github/stars/piuzha/APT.svg?style=social) |
 | 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
