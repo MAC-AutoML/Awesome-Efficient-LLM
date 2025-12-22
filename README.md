@@ -7,9 +7,12 @@
     - [Weight Update](#Weight-Update)
     - [Sparsity Rate Allocation](#Sparsity-Rate-Allocation)
     - [Calibration Dataset](#Calibration-Dataset)
-    - [Other Topic](Other-Topic#)
+    - [Other Topic](#Other-Topic)
   - [Semi-structured Pruning](#Semi-structured-Pruning)
   - [Structured Pruning](#Structured-Pruning)
+    - [Head and Neuron Pruning](#Head-and-Neuron-Pruning)
+    - [Layer Pruning](#Layer-Pruning)
+    - [Other Topic](#Other-Topic)
   - [Activation Sparsity](#Activation-Sparsity)
   - [Joint Sparsification and Quantization](#Joint-Sparsification-and-Quantization)
 - [Quantization](#Quantization)
@@ -121,6 +124,7 @@
 | 2024 |SlimGPT: Layer-wise Structured Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2412.18110) |N/A |
 | 2024 |Compact Language Models via Pruning and Knowledge Distillation| NeurIPS 2024|[Link](https://arxiv.org/abs/2407.14679) |[Link](https://github.com/NVlabs/Minitron) ![](https://img.shields.io/github/stars/NVlabs/Minitron.svg?style=social) |
 | 2024 |DISP-LLM: Dimension-Independent Structural Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.11988) |[Link](https://github.com/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning) ![](https://img.shields.io/github/stars/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning.svg?style=social) |
+| 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
 
 ### Layer Pruning
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -164,7 +168,6 @@
 | 2025 |Prompt-based Depth Pruning of Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2502.04348) | [Link](https://github.com/tada0347/PuDDing) ![](https://img.shields.io/github/stars/tada0347/PuDDing.svg?style=social)|
 | 2025 |IG-Pruning: Input-Guided Block Pruning for Large Language Models|EMNLP 2025| [Link](https://arxiv.org/abs/2511.02213) | [Link](https://github.com/ictnlp/IG-Pruning) ![](https://img.shields.io/github/stars/ictnlp/IG-Pruning.svg?style=social)|
 | 2025 |PIP: Perturbation-based Iterative Pruning for Large Language Models|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2511.02213) | N/A|
-| 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
 | 2025 |ReplaceMe: Network Simplification via Depth Pruning and Transformer Block Linearization|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.02819) |[Link](https://github.com/mts-ai/ReplaceMe) ![](https://img.shields.io/github/stars/mts-ai/ReplaceMe.svg?style=social) |
 | 2025 |Restoring Pruned Large Language Models via Lost Component Compensation|NeurIPS 2025| [Link](https://arxiv.org/abs/2510.21834) |[Link](https://github.com/zijian678/restorelcc) ![](https://img.shields.io/github/stars/zijian678/restorelcc.svg?style=social) |
 
