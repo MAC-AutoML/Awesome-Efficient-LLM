@@ -4,7 +4,9 @@
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
   - [Unstructured Pruning](#Unstructured-Pruning)
     - [Importance Score](#Importance-Score)
+    - [Weight Update](#Weight-Update)
     - [Sparsity Rate Allocation](#Sparsity-Rate-Allocation)
+    - [Calibration Dataset](#Calibration-Dataset)
     - [Other Topic](Other-Topic#)
   - [Semi-structured Pruning](#Semi-structured-Pruning)
   - [Structured Pruning](#Structured-Pruning)
@@ -25,6 +27,10 @@
 ### Importance Score
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
+| 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
+
+### Weight Update
 
 ### Sparsity Rate Allocation
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -41,13 +47,13 @@
 ### Calibration Dataset
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 2024 |Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning|EMNLP 2024| [Link](https://arxiv.org/abs/2410.07461) |[Link](https://github.com/abx393/llm-pruning-calibration-data) ![](https://img.shields.io/github/stars/abx393/llm-pruning-calibration-data.svg?style=social) |
+| 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
 
 ### Other Topic
 
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
 | ---- | ----------------------------------------------------------------------- | ------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 2023 | SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot | ICML 2023| [Link](https://arxiv.org/pdf/2301.00774) |         [Link](https://github.com/IST-DASLab/sparsegpt) ![](https://img.shields.io/github/stars/IST-DASLab/sparsegpt.svg?style=social) |
-| 2023 | A Simple and Effective Pruning Approach for Large Language Models | ICLR 2024| [Link](https://arxiv.org/abs/2306.11695) |         [Link](https://github.com/locuslab/wanda) ![](https://img.shields.io/github/stars/locuslab/wanda.svg?style=social) |
 | 2023 | Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs | ICLR 2024| [Link](https://arxiv.org/abs/2310.08915) |         [Link](https://github.com/zyxxmu/DSnoT) ![](https://img.shields.io/github/stars/zyxxmu/DSnoT.svg?style=social) |
 | 2023 | Compressing LLMs: The Truth is Rarely Pure and Never Simple| ICLR 2024| [Link](https://arxiv.org/abs/2310.01382) |         [Link](https://github.com/VITA-Group/llm-kick) ![](https://img.shields.io/github/stars/VITA-Group/llm-kick.svg?style=social) |
 | 2023 | Junk DNA Hypothesis: Pruning Small Pre-Trained Weights Irreversibly andMonotonically Impairs “Difficult" Downstream Tasks in LLMs| ICML 2024| [Link](https://arxiv.org/abs/2310.02277) |         [Link](https://github.com/VITA-Group/Junk_DNA_Hypothesis) ![](https://img.shields.io/github/stars/VITA-Group/Junk_DNA_Hypothesis.svg?style=social) |
@@ -62,9 +68,7 @@
 | 2024 |Pruner-Zero: Evolving Symbolic Pruning Metric from scratch for Large Language Models| ICML 2024| [Link](https://arxiv.org/abs/2406.02924) |[Link](https://github.com/pprp/Pruner-Zero) ![](https://img.shields.io/github/stars/pprp/Pruner-Zero.svg?style=social) |
 | 2024 |ALPS: Improved Optimization for Highly Sparse One-Shot Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2406.07831) |[Link](https://github.com/mazumder-lab/ALPS) ![](https://img.shields.io/github/stars/mazumder-lab/ALPS.svg?style=social) |
 | 2024 |Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization|EMNLP 2024| [Link](https://arxiv.org/abs/2406.15524) |[Link](https://github.com/LOG-postech/rethinking-LLM-pruning) ![](https://img.shields.io/github/stars/LOG-postech/rethinking-LLM-pruning.svg?style=social) |
-| 2024 |Is C4 Dataset Optimal for Pruning? An Investigation of Calibration Data for LLM Pruning|EMNLP 2024| [Link](https://arxiv.org/abs/2410.07461) |[Link](https://github.com/abx393/llm-pruning-calibration-data) ![](https://img.shields.io/github/stars/abx393/llm-pruning-calibration-data.svg?style=social) |
 | 2024 |Pruning Foundation Models for High Accuracy without Retraining|EMNLP 2024 findings| [Link](https://arxiv.org/abs/2410.15567) |[Link](https://github.com/piuzha/APT) ![](https://img.shields.io/github/stars/piuzha/APT.svg?style=social) |
-| 2024 |Beware of Calibration Data for Pruning Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2410.17711) |[Link](https://github.com/Dereck0602/calibration_data) ![](https://img.shields.io/github/stars/Dereck0602/calibration_data.svg?style=social) |
 | 2024 |Beyond Linear Approximations: A Novel Pruning Approach for Attention Matrix|ICLR 2025| [Link](https://arxiv.org/abs/2410.11261) |N/A |
 | 2024 |OATS: Outlier-Aware Pruning Through Sparse and Low Rank Decomposition|ICLR 2025| [Link](https://arxiv.org/abs/2409.13652) |[Link](https://github.com/stephenqz/OATS) ![](https://img.shields.io/github/stars/stephenqz/OATS.svg?style=social) |
 | 2024 |Wasserstein Distances, Neuronal Entanglement, and Sparsity|ICLR 2025| [Link](https://arxiv.org/abs/2405.15756) |[Link](https://github.com/Shavit-Lab/Sparse-Expansion) ![](https://img.shields.io/github/stars/Shavit-Lab/Sparse-Expansion.svg?style=social) |
