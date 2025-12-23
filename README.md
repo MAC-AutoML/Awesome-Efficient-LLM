@@ -112,6 +112,7 @@
 | 2023 |Fluctuation-based Adaptive Structured Pruning for Large Language Models| AAAI 2024| [Link](https://arxiv.org/abs/2312.11983) |         [Link](https://github.com/CASIA-IVA-Lab/FLAP) ![](https://img.shields.io/github/stars/CASIA-IVA-Lab/FLAP.svg?style=social) |
 | 2023 |Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning| ICLR 2024| [Link](https://arxiv.org/abs/2310.06694) |         [Link](https://github.com/princeton-nlp/LLM-Shearing) ![](https://img.shields.io/github/stars/princeton-nlp/LLM-Shearing.svg?style=social) |
 | 2024 |BlockPruner: Fine-grained Pruning for Large Language Models| ACL 2025 Findings| [Link](https://arxiv.org/abs/2406.10594) |[Link](https://github.com/MrGGLS/BlockPruner) ![](https://img.shields.io/github/stars/MrGGLS/BlockPruner.svg?style=social) |
+| 2024 |Structured Optimal Brain Pruning for Large Language Models| EMNLP 2024 | [Link](https://aclanthology.org/2024.emnlp-main.775) |N/A |
 | 2024 |Search for Efficient Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2409.17372) |[Link](https://github.com/shawnricecake/search-llm) ![](https://img.shields.io/github/stars/shawnricecake/search-llm.svg?style=social) |
 | 2024 |SlimGPT: Layer-wise Structured Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2412.18110) |N/A |
 | 2024 |Compact Language Models via Pruning and Knowledge Distillation| NeurIPS 2024|[Link](https://arxiv.org/abs/2407.14679) |[Link](https://github.com/NVlabs/Minitron) ![](https://img.shields.io/github/stars/NVlabs/Minitron.svg?style=social) |
@@ -127,6 +128,7 @@
 | 2024 |Streamlining Redundant Layers to Compress Large Language Models|ICLR 2025| [Link](https://arxiv.org/abs/2403.19135) |[Link](https://github.com/RUCKBReasoning/LLM-Streamline) ![](https://img.shields.io/github/stars/RUCKBReasoning/LLM-Streamline.svg?style=social) |
 | 2024 |SLEB: Streamlining LLMs through Redundancy Verification and Elimination of Transformer Blocks|ICML 2024| [Link](https://arxiv.org/abs/2402.09025) |[Link](https://github.com/jiwonsong-dev/SLEB) ![](https://img.shields.io/github/stars/jiwonsong-dev/SLEB.svg?style=social) |
 | 2024 |Pruning via Merging: Compressing LLMs via Manifold Alignment Based Layer Merging| EMNLP 2024| [Link](https://arxiv.org/abs/2406.16330) |N/A |
+| 2024 |TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs|ACL 2025| [Link](https://arxiv.org/abs/2412.11242) | [Link](https://github.com/snyhlxde1/TrimLLM) ![](https://img.shields.io/github/stars/snyhlxde1/TrimLLM.svg?style=social)|
 | 2025 |A Simple Linear Patch Revives Layer-Pruned Large Language Models|NeurIPS 2025| [Link](https://arxiv.org/abs/2505.24680) |[Link](https://github.com/chenxinrui-tsinghua/LinearPatch) ![](https://img.shields.io/github/stars/chenxinrui-tsinghua/LinearPatch.svg?style=social) |
 
 ### Other Topic
@@ -135,7 +137,6 @@
 | 2023 |Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning| ACL 2024 Findings| [Link](https://arxiv.org/abs/2305.18403) |  [Link](https://github.com/aim-uofa/LoRAPrune) ![](https://img.shields.io/github/stars/aim-uofa/LoRAPrune.svg?style=social) |
 | 2024 |SliceGPT: Compress Large Language Models by Deleting Rows and Columns| ICLR 2024| [Link](https://arxiv.org/abs/2401.15024) |         [Link](https://github.com/microsoft/TransformerCompression) ![](https://img.shields.io/github/stars/microsoft/TransformerCompression.svg?style=social) |
 | 2024 |APT: Adaptive Pruning and Tuning Pretrained Language Models for Efficient Training and Inference| ICML 2024| [Link](https://arxiv.org/abs/2401.12200) |         [Link](https://github.com/ROIM1998/APT) ![](https://img.shields.io/github/stars/ROIM1998/APT.svg?style=social) |
-| 2024 |Structured Optimal Brain Pruning for Large Language Models| EMNLP 2024 | [Link](https://aclanthology.org/2024.emnlp-main.775) |N/A |
 | 2024 |Pruning Large Language Models to Intra-module Low-rank Architecture with Transitional Activations| ACL 2024 Findings| [Link](https://arxiv.org/abs/2407.05690) |[Link](https://github.com/sbwww/TransAct-pruning) ![](https://img.shields.io/github/stars/sbwww/TransAct-pruning.svg?style=social) |
 | 2024 |LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models|ICML 2024| [Link](https://arxiv.org/abs/2404.09695) |[Link](https://github.com/lihuang258/LoRAP) ![](https://img.shields.io/github/stars/lihuang258/LoRAP.svg?style=social) |
 | 2024 |Pruning as a Domain-specific LLM Extractor| NAACL 2024 Findings| [Link](https://arxiv.org/abs/2405.06275) |[Link](https://github.com/psunlpgroup/D-Pruner) ![](https://img.shields.io/github/stars/psunlpgroup/D-Pruner.svg?style=social) |
@@ -148,7 +149,6 @@
 | 2024 |PAT: Pruning-Aware Tuning for Large Language Models|AAAI 2025| [Link](https://arxiv.org/abs/2408.14721) |[Link](https://github.com/kriskrisliu/PAT_Pruning-Aware-Tuning) ![](https://img.shields.io/github/stars/kriskrisliu/PAT_Pruning-Aware-Tuning.svg?style=social) |
 | 2024 |Change Is the Only Constant: Dynamic LLM Slicing based on Layer Redundancy |EMNLP 2024 Findings| [Link](https://arxiv.org/abs/2411.03513) |[Link](https://github.com/RazvanDu/DynamicSlicing) ![](https://img.shields.io/github/stars/RazvanDu/DynamicSlicing.svg?style=social) |
 | 2024 |LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion|ACL 2024| [Link](https://aclanthology.org/2024.acl-long.434) | N/A|
-| 2024 |TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs|ACL 2025| [Link](https://arxiv.org/abs/2412.11242) | [Link](https://github.com/snyhlxde1/TrimLLM) ![](https://img.shields.io/github/stars/snyhlxde1/TrimLLM.svg?style=social)|
 | 2024 |DRPruning: Efficient Large Language Model Pruning through Distributionally Robust Optimization|ACL 2025| [Link](https://arxiv.org/abs/2411.14055) | [Link](https://github.com/hexuandeng/DRPruning) ![](https://img.shields.io/github/stars/hexuandeng/DRPruning.svg?style=social)|
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 | 2025 |LLaMaFlex: Many-in-one LLMs via Generalized Pruning and Weight Sharing|ICLR 2025| [Link](https://openreview.net/forum?id=AyC4uxx2HW) |N/A|
