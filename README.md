@@ -118,6 +118,7 @@
 | 2024 |Compact Language Models via Pruning and Knowledge Distillation| NeurIPS 2024|[Link](https://arxiv.org/abs/2407.14679) |[Link](https://github.com/NVlabs/Minitron) ![](https://img.shields.io/github/stars/NVlabs/Minitron.svg?style=social) |
 | 2024 |DISP-LLM: Dimension-Independent Structural Pruning for Large Language Models|NeurIPS 2024| [Link](https://arxiv.org/abs/2410.11988) |[Link](https://github.com/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning) ![](https://img.shields.io/github/stars/ZhengaoLi/DISP-LLM-Dimension-Independent-Structural-Pruning.svg?style=social) |
 | 2025 |Týr-the-Pruner: Structural Pruning LLMs via Global Sparsity Distribution Optimization|NeurIPS 2025| [Link](https://arxiv.org/abs/2503.09657) |[Link](https://github.com/AMD-AGI/Tyr-the-Pruner) ![](https://img.shields.io/github/stars/AMD-AGI/Tyr-the-Pruner.svg?style=social) |
+| 2025 |Olica: Efficient Structured Pruning of Large Language Models without Retraining|ICML 2025| [Link](https://arxiv.org/abs/2506.08436) | [Link](https://github.com/BetterTMrR/LLM-Olica) ![](https://img.shields.io/github/stars/BetterTMrR/LLM-Olica.svg?style=social)|
 
 ### Layer Pruning
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                     |
@@ -156,7 +157,6 @@
 | 2025 |You Only Prune Once: Designing Calibration-Free Model Compression With Policy Learning|ICLR 2025| [Link](https://arxiv.org/abs/2501.15296) | [Link](https://github.com/LCS2-IIITD/PruneNet) ![](https://img.shields.io/github/stars/LCS2-IIITD/PruneNet.svg?style=social)|
 | 2025 |Instruction-Following Pruning for Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2501.02086) | N/A |
 | 2025 |Let LLM Tell What to Prune and How Much to Prune|ICML 2025| [Link](https://openreview.net/forum?id=zFR5aWGaUs) | [Link](https://github.com/yangmzevery/PruneLLM) ![](https://img.shields.io/github/stars/yangmzevery/PruneLLM.svg?style=social)|
-| 2025 |Olica: Efficient Structured Pruning of Large Language Models without Retraining|ICML 2025| [Link](https://arxiv.org/abs/2506.08436) | [Link](https://github.com/BetterTMrR/LLM-Olica) ![](https://img.shields.io/github/stars/BetterTMrR/LLM-Olica.svg?style=social)|
 | 2025 |Prompt-based Depth Pruning of Large Language Models|ICML 2025| [Link](https://arxiv.org/abs/2502.04348) | [Link](https://github.com/tada0347/PuDDing) ![](https://img.shields.io/github/stars/tada0347/PuDDing.svg?style=social)|
 | 2025 |IG-Pruning: Input-Guided Block Pruning for Large Language Models|EMNLP 2025| [Link](https://arxiv.org/abs/2511.02213) | [Link](https://github.com/ictnlp/IG-Pruning) ![](https://img.shields.io/github/stars/ictnlp/IG-Pruning.svg?style=social)|
 | 2025 |PIP: Perturbation-based Iterative Pruning for Large Language Models|EMNLP 2025 Findings| [Link](https://arxiv.org/abs/2511.02213) | N/A|
