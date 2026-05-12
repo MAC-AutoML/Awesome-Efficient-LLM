@@ -20,8 +20,7 @@
 
 ## News
 
-- **[2025.05]** Repository restructured with comprehensive taxonomy covering 400+ papers.
-- **[2025.05]** Added new sections: Efficient Architecture, PEFT, Serving Systems, Edge Deployment, and more.
+- **[2026.05]** Repository open-sourced with comprehensive taxonomy covering 400+ papers.
 
 ---
 
