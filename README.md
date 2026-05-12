@@ -20,7 +20,7 @@
 
 ## News
 
-- **[2026.05]** Repository open-sourced with comprehensive taxonomy covering 400+ papers.
+- **[2026.05]** We have open-sourced a repository that includes a comprehensive taxonomy of over 400 papers.
 
 ---
 
