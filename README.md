@@ -407,7 +407,36 @@ Efficient LLMs
 
 ## Efficient Architecture
 
-> *To be added.*
+### State Space Models and Linear Attention
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Hungry Hungry Hippos: Towards Language Modeling with State Space Models | ICLR 2023 | [Link](https://arxiv.org/abs/2212.14052) | [Link](https://github.com/HazyResearch/H3) ![](https://img.shields.io/github/stars/HazyResearch/H3.svg?style=social) |
+| 2023 | Hyena Hierarchy: Towards Larger Convolutional Language Models | ICML 2023 | [Link](https://arxiv.org/abs/2302.10866) | [Link](https://github.com/HazyResearch/safari) ![](https://img.shields.io/github/stars/HazyResearch/safari.svg?style=social) |
+| 2023 | RWKV: Reinventing RNNs for the Transformer Era | EMNLP 2023 Findings | [Link](https://arxiv.org/abs/2305.13048) | [Link](https://github.com/BlinkDL/RWKV-LM) ![](https://img.shields.io/github/stars/BlinkDL/RWKV-LM.svg?style=social) |
+| 2023 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces | arXiv 2023 | [Link](https://arxiv.org/abs/2312.00752) | [Link](https://github.com/state-spaces/mamba) ![](https://img.shields.io/github/stars/state-spaces/mamba.svg?style=social) |
+| 2023 | RetNet: Retentive Network: A Successor to Transformer for Large Language Models | arXiv 2023 | [Link](https://arxiv.org/abs/2307.08621) | [Link](https://github.com/microsoft/torchscale) ![](https://img.shields.io/github/stars/microsoft/torchscale.svg?style=social) |
+| 2023 | Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture | NeurIPS 2023 | [Link](https://arxiv.org/abs/2310.12109) | [Link](https://github.com/HazyResearch/m2) ![](https://img.shields.io/github/stars/HazyResearch/m2.svg?style=social) |
+| 2024 | Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality (Mamba-2) | ICML 2024 | [Link](https://arxiv.org/abs/2405.21060) | [Link](https://github.com/state-spaces/mamba) ![](https://img.shields.io/github/stars/state-spaces/mamba.svg?style=social) |
+| 2024 | Gated Linear Attention Transformers with Hardware-Efficient Training | ICML 2024 | [Link](https://arxiv.org/abs/2312.06635) | [Link](https://github.com/sustcsonglin/flash-linear-attention) ![](https://img.shields.io/github/stars/sustcsonglin/flash-linear-attention.svg?style=social) |
+| 2024 | Based: Simple Linear Attention Language Models Balance the Recall-Throughput Tradeoff | ICML 2024 | [Link](https://arxiv.org/abs/2402.18668) | [Link](https://github.com/HazyResearch/based) ![](https://img.shields.io/github/stars/HazyResearch/based.svg?style=social) |
+| 2024 | Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models | arXiv 2024 | [Link](https://arxiv.org/abs/2402.19427) | N/A |
+| 2024 | Jamba: A Hybrid Transformer-Mamba Language Model | arXiv 2024 | [Link](https://arxiv.org/abs/2403.19887) | N/A |
+
+### Efficient Attention Mechanisms
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints | EMNLP 2023 | [Link](https://arxiv.org/abs/2305.13245) | N/A |
+| 2023 | HyperAttention: Long-context Attention in Near-Linear Time | NeurIPS 2023 | [Link](https://arxiv.org/abs/2310.05869) | N/A |
+| 2024 | FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning | ICLR 2024 | [Link](https://arxiv.org/abs/2307.08691) | [Link](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social) |
+| 2024 | Ring Attention with Blockwise Transformers for Near-Infinite Context | ICLR 2024 | [Link](https://arxiv.org/abs/2310.01889) | [Link](https://github.com/lhao499/RingAttention) ![](https://img.shields.io/github/stars/lhao499/RingAttention.svg?style=social) |
+| 2024 | FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision | NeurIPS 2024 | [Link](https://arxiv.org/abs/2407.08691) | [Link](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social) |
+| 2024 | ThunderKittens: Simple, Fast, and Adorable AI Kernels | NeurIPS 2024 | [Link](https://arxiv.org/abs/2407.11920) | [Link](https://github.com/HazyResearch/ThunderKittens) ![](https://img.shields.io/github/stars/HazyResearch/ThunderKittens.svg?style=social) |
+
+### Mixture of Experts Efficiency
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2024 | DeepSeek-MoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | ACL 2024 | [Link](https://arxiv.org/abs/2401.06066) | [Link](https://github.com/deepseek-ai/DeepSeek-MoE) ![](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-MoE.svg?style=social) |
+| 2024 | Mixtral of Experts | arXiv 2024 | [Link](https://arxiv.org/abs/2401.04088) | [Link](https://github.com/mistralai/mistral-src) ![](https://img.shields.io/github/stars/mistralai/mistral-src.svg?style=social) |
 
 ---
 
@@ -510,19 +539,51 @@ Efficient LLMs
 
 ## Prompt / Context Compression
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models | EMNLP 2023 | [Link](https://arxiv.org/abs/2310.05736) | [Link](https://github.com/microsoft/LLMLingua) ![](https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social) |
+| 2023 | Selective Context: Compressing Context to Enhance Inference Efficiency of Large Language Models | EMNLP 2023 | [Link](https://arxiv.org/abs/2310.06201) | [Link](https://github.com/liyucheng09/Selective_Context) ![](https://img.shields.io/github/stars/liyucheng09/Selective_Context.svg?style=social) |
+| 2023 | Learning to Compress Prompts with Gist Tokens | NeurIPS 2023 | [Link](https://arxiv.org/abs/2304.08467) | [Link](https://github.com/jayelm/gisting) ![](https://img.shields.io/github/stars/jayelm/gisting.svg?style=social) |
+| 2023 | Adapting Language Models to Compress Contexts (AutoCompressors) | EMNLP 2023 | [Link](https://arxiv.org/abs/2305.14788) | [Link](https://github.com/princeton-nlp/AutoCompressors) ![](https://img.shields.io/github/stars/princeton-nlp/AutoCompressors.svg?style=social) |
+| 2023 | Dynamic Context Pruning for Efficient and Interpretable Autoregressive Transformers | NeurIPS 2023 | [Link](https://arxiv.org/abs/2305.15805) | N/A |
+| 2024 | In-context Autoencoder for Context Compression in a Large Language Model (ICAE) | ICLR 2024 | [Link](https://arxiv.org/abs/2307.06945) | [Link](https://github.com/getao/icae) ![](https://img.shields.io/github/stars/getao/icae.svg?style=social) |
+| 2024 | RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation | ICLR 2024 | [Link](https://arxiv.org/abs/2310.04408) | N/A |
+| 2024 | LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression | ACL 2024 | [Link](https://arxiv.org/abs/2310.06839) | [Link](https://github.com/microsoft/LLMLingua) ![](https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social) |
+| 2024 | LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression | ACL 2024 Findings | [Link](https://arxiv.org/abs/2403.12968) | [Link](https://github.com/microsoft/LLMLingua) ![](https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social) |
+| 2024 | Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon | ICML 2024 | [Link](https://arxiv.org/abs/2401.03462) | [Link](https://github.com/FlagOpen/FlagEmbedding) ![](https://img.shields.io/github/stars/FlagOpen/FlagEmbedding.svg?style=social) |
+| 2024 | xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token | NeurIPS 2024 | [Link](https://arxiv.org/abs/2405.13792) | N/A |
+| 2025 | 500xCompressor: Generalized Prompt Compression for Large Language Models | AAAI 2025 | [Link](https://arxiv.org/abs/2408.03094) | N/A |
 
 ---
 
 ## Early Exit
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2022 | CALM: Confident Adaptive Language Modeling | NeurIPS 2022 | [Link](https://arxiv.org/abs/2207.07061) | N/A |
+| 2023 | FREE: Fast and Robust Early Exiting Framework for Autoregressive Language Models | EMNLP 2023 | [Link](https://arxiv.org/abs/2305.09781) | N/A |
+| 2023 | SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference | arXiv 2023 | [Link](https://arxiv.org/abs/2307.02628) | N/A |
+| 2023 | Speculative Decoding with Big Little Decoder (BiLD) | NeurIPS 2023 | [Link](https://arxiv.org/abs/2302.14457) | [Link](https://github.com/kssteven418/BiLD) ![](https://img.shields.io/github/stars/kssteven418/BiLD.svg?style=social) |
+| 2024 | ConsistentEE: A Consistent and Hardness-Guided Early Exiting Method for Accelerating Language Models Inference | AAAI 2024 | [Link](https://arxiv.org/abs/2312.11882) | N/A |
+| 2024 | EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism | ICML 2024 | [Link](https://arxiv.org/abs/2312.04916) | [Link](https://github.com/pan-x-c/EE-LLM) ![](https://img.shields.io/github/stars/pan-x-c/EE-LLM.svg?style=social) |
+| 2024 | LayerSkip: Enabling Early-Exit Inference and Self-Speculative Decoding | ACL 2024 | [Link](https://arxiv.org/abs/2404.16710) | [Link](https://github.com/facebookresearch/LayerSkip) ![](https://img.shields.io/github/stars/facebookresearch/LayerSkip.svg?style=social) |
+| 2024 | Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting | NeurIPS 2024 | [Link](https://arxiv.org/abs/2404.18911) | [Link](https://github.com/Equationliu/Kangaroo) ![](https://img.shields.io/github/stars/Equationliu/Kangaroo.svg?style=social) |
+| 2024 | Draft & Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding | ACL 2024 | [Link](https://arxiv.org/abs/2309.08168) | N/A |
 
 ---
 
 ## Adaptive Computation
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | AdaTape: Foundation Model with Adaptive Computation via Elastic Input Sequence | ICML 2023 | [Link](https://arxiv.org/abs/2301.13195) | N/A |
+| 2023 | CoLT5: Faster Long-Range Transformers with Conditional Computation | EMNLP 2023 | [Link](https://arxiv.org/abs/2303.09752) | N/A |
+| 2024 | Mixture of Depths: Dynamically Allocating Compute in Transformer-Based Language Models | ICML 2024 | [Link](https://arxiv.org/abs/2404.02258) | N/A |
+| 2024 | Think before you speak: Training Language Models With Pause Tokens | ICLR 2024 | [Link](https://arxiv.org/abs/2310.02226) | N/A |
+| 2024 | MatFormer: Nested Transformer for Elastic Inference | ICLR 2024 | [Link](https://arxiv.org/abs/2310.07707) | [Link](https://github.com/devvrit/MatFormer) ![](https://img.shields.io/github/stars/devvrit/MatFormer.svg?style=social) |
+| 2024 | FLEXTRON: Many-in-One Flexible Large Language Model | ICML 2024 | [Link](https://arxiv.org/abs/2406.10260) | N/A |
+| 2024 | LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference | arXiv 2024 | [Link](https://arxiv.org/abs/2407.14057) | N/A |
+| 2024 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | MLSys 2024 | [Link](https://arxiv.org/abs/2312.12456) | [Link](https://github.com/SJTU-IPADS/PowerInfer) ![](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg?style=social) |
 
 ---
 
@@ -530,25 +591,71 @@ Efficient LLMs
 
 ## PEFT
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning | ICLR 2023 | [Link](https://arxiv.org/abs/2303.10512) | [Link](https://github.com/QingruZhang/AdaLoRA) ![](https://img.shields.io/github/stars/QingruZhang/AdaLoRA.svg?style=social) |
+| 2023 | QLoRA: Efficient Finetuning of Quantized LLMs | NeurIPS 2023 | [Link](https://arxiv.org/abs/2305.14314) | [Link](https://github.com/artidoro/qlora) ![](https://img.shields.io/github/stars/artidoro/qlora.svg?style=social) |
+| 2023 | LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models | EMNLP 2023 | [Link](https://arxiv.org/abs/2304.01933) | [Link](https://github.com/AGI-Edgerunners/LLM-Adapters) ![](https://img.shields.io/github/stars/AGI-Edgerunners/LLM-Adapters.svg?style=social) |
+| 2023 | LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model | NeurIPS 2023 | [Link](https://arxiv.org/abs/2304.15010) | [Link](https://github.com/OpenGVLab/LLaMA-Adapter) ![](https://img.shields.io/github/stars/OpenGVLab/LLaMA-Adapter.svg?style=social) |
+| 2023 | DyLoRA: Parameter-Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation | EACL 2023 | [Link](https://arxiv.org/abs/2210.07558) | N/A |
+| 2024 | LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models | ICLR 2024 | [Link](https://arxiv.org/abs/2309.12307) | [Link](https://github.com/dvlab-research/LongLoRA) ![](https://img.shields.io/github/stars/dvlab-research/LongLoRA.svg?style=social) |
+| 2024 | VeRA: Vector-based Random Matrix Adaptation | ICLR 2024 | [Link](https://arxiv.org/abs/2310.11454) | N/A |
+| 2024 | LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models | ICLR 2024 | [Link](https://arxiv.org/abs/2310.08659) | [Link](https://github.com/yxli2123/LoftQ) ![](https://img.shields.io/github/stars/yxli2123/LoftQ.svg?style=social) |
+| 2024 | NOLA: Compressing LoRA using Linear Combination of Random Basis | ICLR 2024 | [Link](https://arxiv.org/abs/2310.02556) | N/A |
+| 2024 | DoRA: Weight-Decomposed Low-Rank Adaptation | ICML 2024 | [Link](https://arxiv.org/abs/2402.09353) | [Link](https://github.com/NVlabs/DoRA) ![](https://img.shields.io/github/stars/NVlabs/DoRA.svg?style=social) |
+| 2024 | LoRA+: Efficient Low-Rank Adaptation of Large Models | ICML 2024 | [Link](https://arxiv.org/abs/2402.12354) | [Link](https://github.com/nikhil-ghosh-berkeley/loraplus) ![](https://img.shields.io/github/stars/nikhil-ghosh-berkeley/loraplus.svg?style=social) |
+| 2024 | RoSA: Accurate Parameter-Efficient Fine-Tuning via Robust Adaptation | ICML 2024 | [Link](https://arxiv.org/abs/2401.04679) | [Link](https://github.com/IST-DASLab/RoSA) ![](https://img.shields.io/github/stars/IST-DASLab/RoSA.svg?style=social) |
+| 2024 | PiSSA: Principal Singular Values and Singular Vectors Adaptation of LLMs | NeurIPS 2024 | [Link](https://arxiv.org/abs/2404.02948) | [Link](https://github.com/GraphPKU/PiSSA) ![](https://img.shields.io/github/stars/GraphPKU/PiSSA.svg?style=social) |
+| 2024 | LoRAHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition | ACL 2024 | [Link](https://arxiv.org/abs/2307.13269) | [Link](https://github.com/sail-sg/lorahub) ![](https://img.shields.io/github/stars/sail-sg/lorahub.svg?style=social) |
+| 2024 | LoRA Learns Less and Forgets Less | ICML 2024 | [Link](https://arxiv.org/abs/2405.09673) | N/A |
 
 ---
 
 ## Quantized Fine-tuning
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | QLoRA: Efficient Finetuning of Quantized LLMs | NeurIPS 2023 | [Link](https://arxiv.org/abs/2305.14314) | [Link](https://github.com/artidoro/qlora) ![](https://img.shields.io/github/stars/artidoro/qlora.svg?style=social) |
+| 2023 | PEQA: Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization | NeurIPS 2023 | [Link](https://arxiv.org/abs/2305.14152) | N/A |
+| 2024 | QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models | ICLR 2024 | [Link](https://arxiv.org/abs/2309.14717) | [Link](https://github.com/yuhuixu1993/qa-lora) ![](https://img.shields.io/github/stars/yuhuixu1993/qa-lora.svg?style=social) |
+| 2024 | LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models | ICLR 2024 | [Link](https://arxiv.org/abs/2310.08659) | [Link](https://github.com/yxli2123/LoftQ) ![](https://img.shields.io/github/stars/yxli2123/LoftQ.svg?style=social) |
+| 2024 | LQ-LoRA: Low-Rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning | ICLR 2024 | [Link](https://arxiv.org/abs/2311.12023) | [Link](https://github.com/HanGuo97/lq-lora) ![](https://img.shields.io/github/stars/HanGuo97/lq-lora.svg?style=social) |
+| 2024 | IR-QLoRA: Accurate LoRA-Finetuning Quantization of LLMs via Information Retention | ICML 2024 | [Link](https://arxiv.org/abs/2402.05445) | [Link](https://github.com/htqin/IR-QLoRA) ![](https://img.shields.io/github/stars/htqin/IR-QLoRA.svg?style=social) |
+| 2024 | BitDelta: Your Fine-Tune May Only Be Worth One Bit | ICML 2024 | [Link](https://arxiv.org/abs/2402.10193) | [Link](https://github.com/FasterDecoding/BitDelta) ![](https://img.shields.io/github/stars/FasterDecoding/BitDelta.svg?style=social) |
+| 2024 | EfficientQAT: Efficient Quantization-Aware Training for Large Language Models | ACL 2025 | [Link](https://arxiv.org/abs/2407.11062) | [Link](https://github.com/OpenGVLab/EfficientQAT) ![](https://img.shields.io/github/stars/OpenGVLab/EfficientQAT.svg?style=social) |
+| 2024 | AQLM: Extreme Compression of Large Language Models via Additive Quantization | ICML 2024 | [Link](https://arxiv.org/abs/2401.06118) | [Link](https://github.com/Vahe1994/AQLM) ![](https://img.shields.io/github/stars/Vahe1994/AQLM.svg?style=social) |
+| 2024 | The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits (BitNet b1.58) | arXiv 2024 | [Link](https://arxiv.org/abs/2402.17764) | N/A |
 
 ---
 
 ## Low-rank Gradient Training
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Sketchy: Memory-efficient Adaptive Regularization with Frequent Directions | NeurIPS 2023 | [Link](https://arxiv.org/abs/2302.03764) | N/A |
+| 2024 | GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection | ICML 2024 | [Link](https://arxiv.org/abs/2403.03507) | [Link](https://github.com/jiaweizzhao/GaLore) ![](https://img.shields.io/github/stars/jiaweizzhao/GaLore.svg?style=social) |
+| 2024 | Flora: Low-Rank Adapters Are Secretly Gradient Compressors | ICML 2024 | [Link](https://arxiv.org/abs/2402.03293) | [Link](https://github.com/BorealisAI/flora-opt) ![](https://img.shields.io/github/stars/BorealisAI/flora-opt.svg?style=social) |
+| 2024 | ReLoRA: High-Rank Training Through Low-Rank Updates | ICLR 2024 | [Link](https://arxiv.org/abs/2307.05695) | [Link](https://github.com/Guitaricet/relora) ![](https://img.shields.io/github/stars/Guitaricet/relora.svg?style=social) |
+| 2024 | Full Parameter Fine-Tuning for Large Language Models with Limited Resources (LOMO) | ACL 2024 | [Link](https://arxiv.org/abs/2306.09782) | [Link](https://github.com/OpenLMLab/LOMO) ![](https://img.shields.io/github/stars/OpenLMLab/LOMO.svg?style=social) |
+| 2024 | AdaLomo: Low-memory Optimization with Adaptive Learning Rate | ACL 2024 Findings | [Link](https://arxiv.org/abs/2310.10195) | [Link](https://github.com/OpenLMLab/LOMO) ![](https://img.shields.io/github/stars/OpenLMLab/LOMO.svg?style=social) |
+| 2024 | SLTrain: A Sparse Plus Low-Rank Approach for Parameter and Memory Efficient Pretraining | NeurIPS 2024 | [Link](https://arxiv.org/abs/2406.02214) | N/A |
+| 2024 | Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients | arXiv 2024 | [Link](https://arxiv.org/abs/2407.08296) | N/A |
+| 2025 | Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint? | ICML 2025 | [Link](https://arxiv.org/abs/2410.01623) | N/A |
 
 ---
 
 ## Memory-efficient Training
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Reducing Activation Recomputation in Large Transformer Models | MLSys 2023 | [Link](https://arxiv.org/abs/2205.05198) | [Link](https://github.com/NVIDIA/Megatron-LM) ![](https://img.shields.io/github/stars/NVIDIA/Megatron-LM.svg?style=social) |
+| 2023 | CAME: Confidence-guided Adaptive Memory Efficient Optimization | ACL 2023 | [Link](https://arxiv.org/abs/2307.02047) | N/A |
+| 2023 | Training Transformers with 4-bit Integers | NeurIPS 2023 | [Link](https://arxiv.org/abs/2306.11987) | [Link](https://github.com/xijiu9/Train_Transformers_with_INT4) ![](https://img.shields.io/github/stars/xijiu9/Train_Transformers_with_INT4.svg?style=social) |
+| 2023 | MeZO: Fine-Tuning Language Models with Just Forward Passes | NeurIPS 2023 | [Link](https://arxiv.org/abs/2305.17333) | [Link](https://github.com/princeton-nlp/MeZO) ![](https://img.shields.io/github/stars/princeton-nlp/MeZO.svg?style=social) |
+| 2024 | Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training | ICLR 2024 | [Link](https://arxiv.org/abs/2305.14342) | [Link](https://github.com/Liuhong99/Sophia) ![](https://img.shields.io/github/stars/Liuhong99/Sophia.svg?style=social) |
+| 2024 | ZeRO++: Extremely Efficient Collective Communication for Giant Model Training | ICML 2024 | [Link](https://arxiv.org/abs/2306.10209) | [Link](https://github.com/microsoft/DeepSpeed) ![](https://img.shields.io/github/stars/microsoft/DeepSpeed.svg?style=social) |
+| 2024 | Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization | ICML 2024 | [Link](https://arxiv.org/abs/2403.12422) | [Link](https://github.com/thu-ml/Jetfire-INT8Training) ![](https://img.shields.io/github/stars/thu-ml/Jetfire-INT8Training.svg?style=social) |
+| 2024 | Adam-mini: Use Fewer Learning Rates, To Gain More | NeurIPS 2024 | [Link](https://arxiv.org/abs/2406.16793) | [Link](https://github.com/zyushun/Adam-mini) ![](https://img.shields.io/github/stars/zyushun/Adam-mini.svg?style=social) |
 
 ---
 
@@ -556,31 +663,67 @@ Efficient LLMs
 
 ## Serving Systems
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM) | SOSP 2023 | [Link](https://arxiv.org/abs/2309.06180) | [Link](https://github.com/vllm-project/vllm) ![](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=social) |
+| 2023 | FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU | ICML 2023 | [Link](https://arxiv.org/abs/2303.06865) | [Link](https://github.com/FMInference/FlexGen) ![](https://img.shields.io/github/stars/FMInference/FlexGen.svg?style=social) |
+| 2023 | AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving | OSDI 2023 | [Link](https://arxiv.org/abs/2302.11665) | N/A |
+| 2024 | SGLang: Efficient Execution of Structured Language Model Programs | NeurIPS 2024 | [Link](https://arxiv.org/abs/2312.07104) | [Link](https://github.com/sgl-project/sglang) ![](https://img.shields.io/github/stars/sgl-project/sglang.svg?style=social) |
+| 2024 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving | OSDI 2024 | [Link](https://arxiv.org/abs/2401.09670) | N/A |
+| 2024 | Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve | OSDI 2024 | [Link](https://arxiv.org/abs/2403.02310) | N/A |
+| 2024 | S-LoRA: Serving Thousands of Concurrent LoRA Adapters | MLSys 2024 | [Link](https://arxiv.org/abs/2311.03285) | [Link](https://github.com/S-LoRA/S-LoRA) ![](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg?style=social) |
+| 2024 | SpecInfer: Accelerating Generative LLM Serving with Tree-based Speculative Inference and Verification | ASPLOS 2024 | [Link](https://arxiv.org/abs/2305.09781) | [Link](https://github.com/flexflow/FlexFlow) ![](https://img.shields.io/github/stars/flexflow/FlexFlow.svg?style=social) |
+| 2024 | SpotServe: Serving Generative Large Language Models on Preemptible Instances | ASPLOS 2024 | [Link](https://arxiv.org/abs/2311.15566) | N/A |
+| 2024 | Splitwise: Efficient Generative LLM Inference Using Phase Splitting | ISCA 2024 | [Link](https://arxiv.org/abs/2311.18677) | N/A |
 
 ---
 
 ## Batching and Scheduling
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Efficiently Scaling Transformer Inference | MLSys 2023 | [Link](https://arxiv.org/abs/2211.05102) | N/A |
+| 2024 | Llumnix: Dynamic Scheduling for Large Language Model Serving | OSDI 2024 | [Link](https://arxiv.org/abs/2406.03243) | [Link](https://github.com/AlibabaPAI/llumnix) ![](https://img.shields.io/github/stars/AlibabaPAI/llumnix.svg?style=social) |
+| 2024 | Sarathi-Serve: Taming Throughput-Latency Tradeoff in LLM Inference with Chunked Prefills | OSDI 2024 | [Link](https://arxiv.org/abs/2403.02310) | N/A |
+| 2024 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized LLM Serving | OSDI 2024 | [Link](https://arxiv.org/abs/2401.09670) | N/A |
+| 2024 | Splitwise: Efficient Generative LLM Inference Using Phase Splitting | ISCA 2024 | [Link](https://arxiv.org/abs/2311.18677) | N/A |
 
 ---
 
 ## Kernel Optimization
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks | ASPLOS 2023 | [Link](https://dl.acm.org/doi/10.1145/3575693.3575747) | N/A |
+| 2023 | HyperAttention: Long-context Attention in Near-Linear Time | NeurIPS 2023 | [Link](https://arxiv.org/abs/2310.05869) | N/A |
+| 2024 | FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning | ICLR 2024 | [Link](https://arxiv.org/abs/2307.08691) | [Link](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social) |
+| 2024 | FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision | NeurIPS 2024 | [Link](https://arxiv.org/abs/2407.08691) | [Link](https://github.com/Dao-AILab/flash-attention) ![](https://img.shields.io/github/stars/Dao-AILab/flash-attention.svg?style=social) |
+| 2024 | ThunderKittens: Simple, Fast, and Adorable AI Kernels | NeurIPS 2024 | [Link](https://arxiv.org/abs/2407.11920) | [Link](https://github.com/HazyResearch/ThunderKittens) ![](https://img.shields.io/github/stars/HazyResearch/ThunderKittens.svg?style=social) |
+| 2024 | Ring Attention with Blockwise Transformers for Near-Infinite Context | ICLR 2024 | [Link](https://arxiv.org/abs/2310.01889) | [Link](https://github.com/lhao499/RingAttention) ![](https://img.shields.io/github/stars/lhao499/RingAttention.svg?style=social) |
 
 ---
 
 ## Compiler Optimization
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs | ASPLOS 2023 | [Link](https://arxiv.org/abs/2206.09603) | [Link](https://github.com/hidet-org/hidet) ![](https://img.shields.io/github/stars/hidet-org/hidet.svg?style=social) |
+| 2023 | TensorIR: An Abstraction for Automatic Tensorized Program Optimization | ASPLOS 2023 | [Link](https://arxiv.org/abs/2207.04296) | [Link](https://github.com/apache/tvm) ![](https://img.shields.io/github/stars/apache/tvm.svg?style=social) |
+| 2023 | Welder: Scheduling Deep Learning Memory Access via Tile-level Fusion | OSDI 2023 | [Link](https://www.usenix.org/conference/osdi23/presentation/shi) | N/A |
+| 2023 | OLLA: Optimizing the Lifetime and Location of Arrays to Reduce Memory Usage of Neural Networks | MLSys 2023 | [Link](https://arxiv.org/abs/2210.12924) | N/A |
+| 2024 | Ladder: Enabling Efficient Low-Bit Quantization and Inference with Compiler Co-Design | OSDI 2024 | [Link](https://www.usenix.org/conference/osdi24/presentation/wang-lei) | N/A |
 
 ---
 
 ## Hardware-aware Deployment
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Efficiently Scaling Transformer Inference | MLSys 2023 | [Link](https://arxiv.org/abs/2211.05102) | N/A |
+| 2024 | AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration | MLSys 2024 | [Link](https://arxiv.org/abs/2306.00978) | [Link](https://github.com/mit-han-lab/llm-awq) ![](https://img.shields.io/github/stars/mit-han-lab/llm-awq.svg?style=social) |
+| 2024 | Atom: Low-bit Quantization for Efficient and Accurate LLM Serving | MLSys 2024 | [Link](https://arxiv.org/abs/2310.19102) | [Link](https://github.com/efeslab/Atom) ![](https://img.shields.io/github/stars/efeslab/Atom.svg?style=social) |
+| 2024 | QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving | MLSys 2025 | [Link](https://arxiv.org/abs/2405.04532) | [Link](https://github.com/mit-han-lab/omniserve) ![](https://img.shields.io/github/stars/mit-han-lab/omniserve.svg?style=social) |
+| 2024 | MLC-LLM: Universal LLM Deployment on Consumer Devices with ML Compilation | MLSys 2024 | [Link](https://mlc.ai/mlc-llm/) | [Link](https://github.com/mlc-ai/mlc-llm) ![](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg?style=social) |
 
 ---
 
@@ -588,31 +731,72 @@ Efficient LLMs
 
 ## Long-context Evaluation
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | ZeroSCROLLS: A Zero-Shot Benchmark for Long Text Understanding | EMNLP 2023 | [Link](https://arxiv.org/abs/2305.14196) | [Link](https://github.com/tau-nlp/zero_scrolls) ![](https://img.shields.io/github/stars/tau-nlp/zero_scrolls.svg?style=social) |
+| 2024 | Lost in the Middle: How Language Models Use Long Contexts | TACL 2024 | [Link](https://arxiv.org/abs/2307.03172) | N/A |
+| 2024 | LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding | ACL 2024 | [Link](https://arxiv.org/abs/2308.14508) | [Link](https://github.com/THUDM/LongBench) ![](https://img.shields.io/github/stars/THUDM/LongBench.svg?style=social) |
+| 2024 | L-Eval: Instituting Standardized Evaluation for Long Context Language Models | ACL 2024 | [Link](https://arxiv.org/abs/2307.11088) | [Link](https://github.com/OpenLMLab/LEval) ![](https://img.shields.io/github/stars/OpenLMLab/LEval.svg?style=social) |
+| 2024 | RULER: What's the Real Context Size of Your Long-Context Language Models? | NAACL 2024 | [Link](https://arxiv.org/abs/2404.06654) | [Link](https://github.com/hsiehjackson/RULER) ![](https://img.shields.io/github/stars/hsiehjackson/RULER.svg?style=social) |
+| 2024 | InfiniteBench: Extending Long Context Evaluation Beyond 100K Tokens | ACL 2024 | [Link](https://arxiv.org/abs/2402.13718) | [Link](https://github.com/OpenBMB/InfiniteBench) ![](https://img.shields.io/github/stars/OpenBMB/InfiniteBench.svg?style=social) |
+| 2024 | Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of LLMs | ACL 2024 | [Link](https://arxiv.org/abs/2402.14848) | N/A |
+| 2024 | BABILong: Testing the Limits of LLMs with Long Context Reasoning Benchmarks | NeurIPS 2024 | [Link](https://arxiv.org/abs/2406.10149) | N/A |
 
 ---
 
 ## Reasoning Robustness
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Compressing LLMs: The Truth is Rarely Pure and Never Simple | ICLR 2024 | [Link](https://arxiv.org/abs/2310.01382) | [Link](https://github.com/VITA-Group/llm-kick) ![](https://img.shields.io/github/stars/VITA-Group/llm-kick.svg?style=social) |
+| 2024 | ShortGPT: Layers in Large Language Models are More Redundant Than You Expect | ACL 2025 Findings | [Link](https://arxiv.org/abs/2403.03853) | N/A |
+| 2024 | The Unreasonable Ineffectiveness of the Deeper Layers | ICLR 2025 | [Link](https://arxiv.org/abs/2403.17887) | N/A |
+| 2024 | LASER: Layer-Selective Rank Reduction for Improving Reasoning | ICML 2024 | [Link](https://arxiv.org/abs/2312.13558) | N/A |
+| 2025 | Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression | ICML 2025 | [Link](https://arxiv.org/abs/2505.19433) | [Link](https://github.com/pprp/ACBench) ![](https://img.shields.io/github/stars/pprp/ACBench.svg?style=social) |
+| 2025 | Pruning Weights but Not Truth: Safeguarding Truthfulness While Pruning LLMs | EMNLP 2025 Findings | [Link](https://arxiv.org/abs/2509.00096) | N/A |
 
 ---
 
 ## Safety under Compression
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2023 | Safety Alignment Should Be Made More Manageable | NeurIPS 2023 | [Link](https://arxiv.org/abs/2306.09731) | N/A |
+| 2024 | Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To | ICLR 2024 | [Link](https://arxiv.org/abs/2310.03693) | N/A |
+| 2024 | Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation | ICLR 2024 | [Link](https://arxiv.org/abs/2310.06987) | N/A |
+| 2024 | Playing It Safe: Defending Against Backdoors with Activation Clustering in Quantized LLMs | AAAI 2024 | [Link](https://arxiv.org/abs/2310.08164) | N/A |
+| 2024 | Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning | NeurIPS 2024 | [Link](https://arxiv.org/abs/2401.10862) | N/A |
+| 2024 | Navigating the Safety Landscape: Measuring Risks in Finetuning Large Language Models | NeurIPS 2024 | [Link](https://arxiv.org/abs/2405.17374) | N/A |
 
 ---
 
 ## Multimodal LLMs
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2024 | Honeybee: Locality-enhanced Projector for Multimodal LLM | CVPR 2024 | [Link](https://arxiv.org/abs/2312.06742) | [Link](https://github.com/kakaobrain/honeybee) ![](https://img.shields.io/github/stars/kakaobrain/honeybee.svg?style=social) |
+| 2024 | MobileVLM: A Fast, Reproducible and Strong Vision Language Assistant for Mobile Devices | CVPR 2024 | [Link](https://arxiv.org/abs/2312.16886) | [Link](https://github.com/Meituan-AutoML/MobileVLM) ![](https://img.shields.io/github/stars/Meituan-AutoML/MobileVLM.svg?style=social) |
+| 2024 | TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones | EMNLP 2024 | [Link](https://arxiv.org/abs/2312.16862) | [Link](https://github.com/DLYuanGod/TinyGPT-V) ![](https://img.shields.io/github/stars/DLYuanGod/TinyGPT-V.svg?style=social) |
+| 2024 | LLaVA-Phi: Efficient Multi-Modal Assistant with Small Language Model | AAAI 2024 | [Link](https://arxiv.org/abs/2401.02330) | N/A |
+| 2024 | FastV: An Image is Worth 1/2 Tokens After Layer 2 | ECCV 2024 | [Link](https://arxiv.org/abs/2403.06764) | [Link](https://github.com/pkunlp-icler/FastV) ![](https://img.shields.io/github/stars/pkunlp-icler/FastV.svg?style=social) |
+| 2024 | Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models | NeurIPS 2024 | [Link](https://arxiv.org/abs/2403.18814) | [Link](https://github.com/dvlab-research/MiniGemini) ![](https://img.shields.io/github/stars/dvlab-research/MiniGemini.svg?style=social) |
+| 2024 | TokenPacker: Efficient Visual Projector for Multimodal LLM | NeurIPS 2024 | [Link](https://arxiv.org/abs/2407.02392) | N/A |
+| 2024 | Matryoshka Multimodal Models | NeurIPS 2024 | [Link](https://arxiv.org/abs/2405.17430) | N/A |
+| 2025 | LLaVA-MoD: Making LLaVA Tiny via MoE Knowledge Distillation | ICLR 2025 | [Link](https://arxiv.org/abs/2408.15881) | [Link](https://github.com/shufangxun/LLaVA-MoD) ![](https://img.shields.io/github/stars/shufangxun/LLaVA-MoD.svg?style=social) |
 
 ---
 
 ## Edge Deployment
 
-> *To be added.*
+| Year | Title | Venue | Paper | Code |
+| ---- | ----- | ----- | ----- | ---- |
+| 2024 | MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases | ICML 2024 | [Link](https://arxiv.org/abs/2402.14905) | N/A |
+| 2024 | LLM in a flash: Efficient Large Language Model Inference with Limited Memory | ICML 2024 | [Link](https://arxiv.org/abs/2312.11514) | N/A |
+| 2024 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | MLSys 2024 | [Link](https://arxiv.org/abs/2312.12456) | [Link](https://github.com/SJTU-IPADS/PowerInfer) ![](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg?style=social) |
+| 2024 | EdgeMoE: Fast On-Device Inference of Mixture-of-Experts Based Large Language Models | MLSys 2024 | [Link](https://arxiv.org/abs/2308.14352) | N/A |
+| 2024 | LLMCad: Fast and Scalable On-device Large Language Model Inference | MLSys 2024 | [Link](https://arxiv.org/abs/2309.04255) | N/A |
+| 2024 | Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs | ICML 2024 | [Link](https://arxiv.org/abs/2402.10517) | N/A |
+| 2024 | MLC-LLM: Universal LLM Deployment on Consumer Devices with ML Compilation | MLSys 2024 | [Link](https://mlc.ai/mlc-llm/) | [Link](https://github.com/mlc-ai/mlc-llm) ![](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg?style=social) |
 
 ---
 
