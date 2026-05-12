@@ -1,88 +1,127 @@
+<div align="center">
+
 # Awesome-Efficient-Large-Models
 
-A list of awesome papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Last Commit](https://img.shields.io/badge/Last_Update-2025.05-blue)
+![Papers](https://img.shields.io/badge/Papers-400%2B-red)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+
+**A curated list of papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).**
+
+*Continuously updated. Welcome to star and watch!*
+
+[Paper Collection](#taxonomy) | [Contributing](#contributing)
+
+</div>
 
 ---
 
-# Taxonomy
+## News
+
+- **[2025.05]** Repository restructured with comprehensive taxonomy covering 400+ papers.
+- **[2025.05]** Added new sections: Efficient Architecture, PEFT, Serving Systems, Edge Deployment, and more.
+
+---
+
+## Taxonomy
+
+<div align="center">
 
 ```
-Efficient LLMs
-├── Model-side Compression
-│   ├── Quantization
-│   ├── Pruning / Sparsity
-│   ├── Knowledge Distillation
-│   ├── Low-rank Decomposition
-│   └── Efficient Architecture
-├── Inference-side Acceleration
-│   ├── Speculative Decoding
-│   ├── KV Cache Optimization
-│   ├── Prompt / Context Compression
-│   ├── Early Exit
-│   └── Adaptive Computation
-├── Training and Fine-tuning Efficiency
-│   ├── PEFT
-│   ├── Quantized Fine-tuning
-│   ├── Low-rank Gradient Training
-│   └── Memory-efficient Training
-├── System and Hardware Co-design
-│   ├── Serving Systems
-│   ├── Batching and Scheduling
-│   ├── Kernel Optimization
-│   ├── Compiler Optimization
-│   └── Hardware-aware Deployment
-└── Evaluation and Applications
-    ├── Long-context Evaluation
-    ├── Reasoning Robustness
-    ├── Safety under Compression
-    ├── Multimodal LLMs
-    └── Edge Deployment
+                              Efficient LLMs
+       ┌─────────────────────────┼─────────────────────────┐
+       │                         │                         │
+ Model-side              Inference-side              Training &
+ Compression             Acceleration              Fine-tuning
+       │                         │                         │
+ ├─ Quantization          ├─ Speculative Decoding    ├─ PEFT
+ ├─ Pruning/Sparsity      ├─ KV Cache Optimization   ├─ Quantized FT
+ ├─ Distillation          ├─ Prompt Compression      ├─ Low-rank Grad
+ ├─ Low-rank Decomp       ├─ Early Exit              └─ Memory-efficient
+ └─ Efficient Arch        └─ Adaptive Computation
+                    ┌──────────────┼──────────────┐
+              System & HW                   Evaluation &
+              Co-design                     Applications
+                    │                              │
+              ├─ Serving Systems             ├─ Long-context Eval
+              ├─ Batching/Scheduling         ├─ Reasoning Robustness
+              ├─ Kernel Optimization         ├─ Safety under Compress
+              ├─ Compiler Optimization       ├─ Multimodal LLMs
+              └─ HW-aware Deployment         └─ Edge Deployment
 ```
 
----
-
-# Table of Contents
-
-- [Model-side Compression](#model-side-compression)
-  - [Quantization](#quantization)
-    - [LLM Quantization](#llm-quantization)
-    - [VLM Quantization](#vlm-quantization)
-  - [Pruning / Sparsity](#pruning--sparsity)
-    - [Unstructured Pruning](#unstructured-pruning)
-    - [Semi-structured Pruning](#semi-structured-pruning)
-    - [Structured Pruning](#structured-pruning)
-    - [Activation Sparsity](#activation-sparsity)
-    - [Joint Sparsification and Quantization](#joint-sparsification-and-quantization)
-  - [Knowledge Distillation](#knowledge-distillation)
-  - [Low-rank Decomposition](#low-rank-decomposition)
-  - [Efficient Architecture](#efficient-architecture)
-- [Inference-side Acceleration](#inference-side-acceleration)
-  - [Speculative Decoding](#speculative-decoding)
-  - [KV Cache Optimization](#kv-cache-optimization)
-  - [Prompt / Context Compression](#prompt--context-compression)
-  - [Early Exit](#early-exit)
-  - [Adaptive Computation](#adaptive-computation)
-- [Training and Fine-tuning Efficiency](#training-and-fine-tuning-efficiency)
-  - [PEFT](#peft)
-  - [Quantized Fine-tuning](#quantized-fine-tuning)
-  - [Low-rank Gradient Training](#low-rank-gradient-training)
-  - [Memory-efficient Training](#memory-efficient-training)
-- [System and Hardware Co-design](#system-and-hardware-co-design)
-  - [Serving Systems](#serving-systems)
-  - [Batching and Scheduling](#batching-and-scheduling)
-  - [Kernel Optimization](#kernel-optimization)
-  - [Compiler Optimization](#compiler-optimization)
-  - [Hardware-aware Deployment](#hardware-aware-deployment)
-- [Evaluation and Applications](#evaluation-and-applications)
-  - [Long-context Evaluation](#long-context-evaluation)
-  - [Reasoning Robustness](#reasoning-robustness)
-  - [Safety under Compression](#safety-under-compression)
-  - [Multimodal LLMs](#multimodal-llms)
-  - [Edge Deployment](#edge-deployment)
+</div>
 
 ---
 
-# Model-side Compression
+## Table of Contents
+
+<details open>
+<summary><b>Model-side Compression</b></summary>
+
+- [Quantization](#quantization)
+  - [LLM Quantization](#llm-quantization)
+  - [VLM Quantization](#vlm-quantization)
+- [Pruning / Sparsity](#pruning--sparsity)
+  - [Unstructured Pruning](#unstructured-pruning)
+  - [Semi-structured Pruning](#semi-structured-pruning)
+  - [Structured Pruning](#structured-pruning)
+  - [Activation Sparsity](#activation-sparsity)
+  - [Joint Sparsification and Quantization](#joint-sparsification-and-quantization)
+- [Knowledge Distillation](#knowledge-distillation)
+- [Low-rank Decomposition](#low-rank-decomposition)
+- [Efficient Architecture](#efficient-architecture)
+
+</details>
+
+<details open>
+<summary><b>Inference-side Acceleration</b></summary>
+
+- [Speculative Decoding](#speculative-decoding)
+- [KV Cache Optimization](#kv-cache-optimization)
+- [Prompt / Context Compression](#prompt--context-compression)
+- [Early Exit](#early-exit)
+- [Adaptive Computation](#adaptive-computation)
+
+</details>
+
+<details open>
+<summary><b>Training and Fine-tuning Efficiency</b></summary>
+
+- [PEFT](#peft)
+- [Quantized Fine-tuning](#quantized-fine-tuning)
+- [Low-rank Gradient Training](#low-rank-gradient-training)
+- [Memory-efficient Training](#memory-efficient-training)
+
+</details>
+
+<details open>
+<summary><b>System and Hardware Co-design</b></summary>
+
+- [Serving Systems](#serving-systems)
+- [Batching and Scheduling](#batching-and-scheduling)
+- [Kernel Optimization](#kernel-optimization)
+- [Compiler Optimization](#compiler-optimization)
+- [Hardware-aware Deployment](#hardware-aware-deployment)
+
+</details>
+
+<details open>
+<summary><b>Evaluation and Applications</b></summary>
+
+- [Long-context Evaluation](#long-context-evaluation)
+- [Reasoning Robustness](#reasoning-robustness)
+- [Safety under Compression](#safety-under-compression)
+- [Multimodal LLMs](#multimodal-llms)
+- [Edge Deployment](#edge-deployment)
+
+</details>
+
+---
+
+# <img src="https://img.shields.io/badge/-Model--side_Compression-blue?style=for-the-badge" alt="Model-side Compression"/>
 
 ## Quantization
 
@@ -447,7 +486,7 @@ Efficient LLMs
 
 ---
 
-# Inference-side Acceleration
+# <img src="https://img.shields.io/badge/-Inference--side_Acceleration-orange?style=for-the-badge" alt="Inference-side Acceleration"/>
 
 ## Speculative Decoding
 
@@ -600,7 +639,7 @@ Efficient LLMs
 
 ---
 
-# Training and Fine-tuning Efficiency
+# <img src="https://img.shields.io/badge/-Training_and_Fine--tuning_Efficiency-green?style=for-the-badge" alt="Training and Fine-tuning Efficiency"/>
 
 ## PEFT
 
@@ -681,7 +720,7 @@ Efficient LLMs
 
 ---
 
-# System and Hardware Co-design
+# <img src="https://img.shields.io/badge/-System_and_Hardware_Co--design-purple?style=for-the-badge" alt="System and Hardware Co-design"/>
 
 ## Serving Systems
 
@@ -758,7 +797,7 @@ Efficient LLMs
 
 ---
 
-# Evaluation and Applications
+# <img src="https://img.shields.io/badge/-Evaluation_and_Applications-red?style=for-the-badge" alt="Evaluation and Applications"/>
 
 ## Long-context Evaluation
 
@@ -841,4 +880,8 @@ Efficient LLMs
 
 # Contributing
 
-If you find any missing papers or errors, please feel free to open an issue or submit a pull request.
+We welcome contributions from the community! If you find any missing papers or errors, please feel free to:
+
+- Open an **Issue** to report errors or suggest papers
+- Submit a **Pull Request** to add new papers
+- **Star** this repository if you find it helpful
