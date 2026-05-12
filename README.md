@@ -1,4 +1,4 @@
-# Awesome-Efficient-LLM
+# Awesome-Efficient-Large-Models
 
 # Toxonomy and Papers
 - [Sparsity and Pruning](#Sparsity-and-Pruning)
