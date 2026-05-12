@@ -26,32 +26,9 @@
 
 ## Taxonomy
 
-<div align="center">
-
-```
-                              Efficient Large Models
-       ┌─────────────────────────┼─────────────────────────┐
-       │                         │                         │
- Model-side              Inference-side              Training &
- Compression             Acceleration              Fine-tuning
-       │                         │                         │
- ├─ Quantization          ├─ Speculative Decoding    ├─ PEFT
- ├─ Pruning/Sparsity      ├─ KV Cache Optimization   ├─ Quantized FT
- ├─ Distillation          ├─ Prompt Compression      ├─ Low-rank Grad
- ├─ Low-rank Decomp       ├─ Early Exit              └─ Memory-efficient
- └─ Efficient Arch        └─ Adaptive Computation
-                    ┌──────────────┼──────────────┐
-              System & HW                   Evaluation &
-              Co-design                     Applications
-                    │                              │
-              ├─ Serving Systems             ├─ Long-context Eval
-              ├─ Batching/Scheduling         ├─ Reasoning Robustness
-              ├─ Kernel Optimization         ├─ Safety under Compress
-              ├─ Compiler Optimization       ├─ Multimodal LLMs
-              └─ HW-aware Deployment         └─ Edge Deployment
-```
-
-</div>
+<p align="center">
+  <img src="Taxonomy.png" width="800">
+</p>
 
 ---
 
