@@ -499,7 +499,7 @@
 | 2023 | Fast Inference from Transformers via Speculative Decoding | ICML 2023 | [Link](https://proceedings.mlr.press/v202/leviathan23a.html) | N/A |
 | 2023 | SpecTr: Fast Speculative Decoding via Optimal Transport | NeurIPS 2023 | [Link](https://papers.neurips.cc/paper_files/paper/2023/hash/6034a661584af6c28fd97a6f23e56c0a-Abstract-Conference.html) | N/A |
 | 2023 | Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation | EMNLP 2023 Findings | [Link](https://aclanthology.org/2023.findings-emnlp.257/) | [Link](https://github.com/hemingkx/SpecDec) ![](https://img.shields.io/github/stars/hemingkx/SpecDec.svg?style=social) |
-| 2023 | Speculative Decoding with Big Little Decoder | NeurIPS 2023 | [Link](https://papers.nips.cc/paper_files/paper/2023/hash/7b97adeafa1c51cf65263459ca9d0d7c-Abstract-Conference.html) | [Link](https://github.com/and-mill/BigLittleDecoder) ![](https://img.shields.io/github/stars/and-mill/BigLittleDecoder.svg?style=social) |
+| 2023 | Speculative Decoding with Big Little Decoder | NeurIPS 2023 | [Link](https://papers.nips.cc/paper_files/paper/2023/hash/7b97adeafa1c51cf65263459ca9d0d7c-Abstract-Conference.html) | [Link](https://github.com/kssteven418/BigLittleDecoder) ![](https://img.shields.io/github/stars/kssteven418/BigLittleDecoder.svg?style=social) |
 
 ---
 
