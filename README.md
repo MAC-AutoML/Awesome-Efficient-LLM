@@ -221,6 +221,25 @@
 | 2023 | RPTQ: Reorder-based Post-training Quantization for Large Language Models |  | [Link](https://arxiv.org/pdf/2304.01089) | [Link](https://github.com/hahnyuan/RPTQ4LLM)![](https://img.shields.io/github/stars/hahnyuan/RPTQ4LLM.svg?style=social) |
 | 2024 | QQQ: Quality Quattuor-Bit Quantization for Large Language Models | ICLR | [Link](https://arxiv.org/pdf/2406.09904) | [Link](https://github.com/HandH1998/QQQ)![](https://img.shields.io/github/stars/HandH1998/QQQ.svg?style=social) |
 | 2024 | Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs |                  | [Link](https://arxiv.org/pdf/2405.14428) | [Link](https://github.com/onnoo/activation-spikes)![](https://img.shields.io/github/stars/onnoo/activation-spikes.svg?style=social) |
+| 2025 | CBQ: Cross-Block Quantization for Large Language Models | ICLR 2025 | [Link](https://openreview.net/forum?id=eW4yh6HKz4) | N/A |
+| 2025 | MambaQuant: Quantizing the Mamba Family with Variance Aligned Rotation Methods | ICLR 2025 | [Link](https://arxiv.org/abs/2501.13484) | N/A |
+| 2025 | SeedLM: Compressing LLM Weights into Seeds of Pseudo-Random Generators | ICLR 2025 | [Link](https://openreview.net/forum?id=u3TL0qxLWf) | N/A |
+| 2025 | Progressive Mixed-Precision Decoding for Efficient LLM Inference | ICLR 2025 | [Link](https://openreview.net/forum?id=OVxmpus9NA) | N/A |
+| 2025 | Surprising Effectiveness of Pretraining Ternary Language Models at Scale | ICLR 2025 | [Link](https://openreview.net/forum?id=TJo6aQb7mK) | N/A |
+| 2025 | EfficientQAT: Efficient Quantization-Aware Training for Large Language Models | ACL 2025 | [Link](https://arxiv.org/abs/2407.11062) | [Link](https://github.com/WHJang-0421/EfficientQAT) ![](https://img.shields.io/github/stars/WHJang-0421/EfficientQAT.svg?style=social) |
+| 2025 | MiniKV: Pushing the Limits of 2-Bit KV Cache via Compression and System Co-Design for Efficient Long Context Inference | ACL 2025 Findings | [Link](https://aclanthology.org/2025.findings-acl.952/) | N/A |
+| 2025 | AsymKV: Enabling 1-Bit Quantization of KV Cache with Layer-Wise Asymmetric Quantization Configurations | ACL 2025 | [Link](https://arxiv.org/abs/2410.13212) | N/A |
+| 2025 | Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition | ACL 2025 Findings | [Link](https://arxiv.org/abs/2506.02077) | N/A |
+| 2025 | LittleBit: Ultra Low-Bit Quantization via Latent Factorization | NeurIPS 2025 | [Link](https://arxiv.org/abs/2506.13771) | [Link](https://github.com/SamsungLabs/LittleBit) ![](https://img.shields.io/github/stars/SamsungLabs/LittleBit.svg?style=social) |
+| 2024 | Extreme Compression of Large Language Models via Additive Quantization | ICML 2024 | [Link](https://icml.cc/virtual/2024/poster/34964) | [Link](https://github.com/Vahe1994/AQLM) ![](https://img.shields.io/github/stars/Vahe1994/AQLM.svg?style=social) |
+| 2024 | BiLLM: Pushing the Limit of Post-Training Quantization for LLMs | ICML 2024 | [Link](https://proceedings.mlr.press/v235/huang24q.html) | [Link](https://github.com/Ce-daros/BiLLM) ![](https://img.shields.io/github/stars/Ce-daros/BiLLM.svg?style=social) |
+| 2024 | LQER: Low-Rank Quantization Error Reconstruction for LLMs | ICML 2024 | [Link](https://arxiv.org/abs/2402.02446) | N/A |
+| 2024 | Evaluating Quantized Large Language Models | ICML 2024 | [Link](https://arxiv.org/abs/2402.18158) | [Link](https://github.com/thu-nics/qllm-eval) ![](https://img.shields.io/github/stars/thu-nics/qllm-eval.svg?style=social) |
+| 2024 | QMoE: Sub-1-Bit Compression of Trillion Parameter Models | MLSys 2024 | [Link](https://proceedings.mlsys.org/paper_files/paper/2024/hash/c74b624843218d9b6713fcf299d6d5e4-Abstract-Conference.html) | [Link](https://github.com/mlsys24-qmoe/qmoe) ![](https://img.shields.io/github/stars/mlsys24-qmoe/qmoe.svg?style=social) |
+| 2024 | DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs | NeurIPS 2024 | [Link](https://arxiv.org/abs/2406.01721) | [Link](https://github.com/Hsu1023/DuQuant) ![](https://img.shields.io/github/stars/Hsu1023/DuQuant.svg?style=social) |
+| 2024 | QBB: Quantization with Binary Bases for LLMs | NeurIPS 2024 | [Link](https://openreview.net/forum?id=Kw6MRGFx0R) | N/A |
+| 2024 | Cherry on Top: Parameter Heterogeneity and Quantization in Large Language Models | NeurIPS 2024 | [Link](https://papers.nips.cc/paper_files/paper/2024/hash/6fcc2190f456464160921e98393bf50e-Abstract-Conference.html) | N/A |
+| 2024 | VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models | EMNLP 2024 | [Link](https://aclanthology.org/2024.emnlp-main.467/) | [Link](https://github.com/paperwave/VPTQ) ![](https://img.shields.io/github/stars/paperwave/VPTQ.svg?style=social) |
 
 
 ## VLM Quantization
@@ -230,7 +249,7 @@
 | 2025 | MBQ:Modality-Balanced Quantization for Large Vision-Language Models     | CVPR 2025 | [Link](https://arxiv.org/pdf/2412.19509) | [Link](https://github.com/thu-nics/MBQ) ![](https://img.shields.io/github/stars/thu-nics/MBQ.svg?style=social) |
 | 2025 | MQuant: Unleashing the Inference Potential of Multimodal Large Language Models via Full Static Quantization     | ACM MM 2025 | [Link](https://arxiv.org/pdf/2502.00425) | [Link](https://github.com/StiphyJay/MQuant) ![](https://img.shields.io/github/stars/StiphyJay/MQuant.svg?style=social) |
 | 2025 | CASP: Compression of Large Multimodal Models Based on Attention Sparsity     | CVPR 2025 | [Link](https://arxiv.org/pdf/2503.05936) | [Link](https://github.com/vbdi/casp) ![](https://img.shields.io/github/stars/vbdi/casp.svg?style=social) |
-
+| 2024 | Advancing Multimodal Large Language Models with Quantization-Aware Scale Learning for Efficient Adaptation | ACM MM 2024 | [Link](https://arxiv.org/abs/2408.03735) | N/A |
 
 
 # Knowledge Distillation
