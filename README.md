@@ -29,7 +29,7 @@
 <div align="center">
 
 ```
-                              Efficient LLMs
+                              Efficient Large Models
        ┌─────────────────────────┼─────────────────────────┐
        │                         │                         │
  Model-side              Inference-side              Training &
