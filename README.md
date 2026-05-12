@@ -1,6 +1,6 @@
 # Awesome-Efficient-Large-Models
 
-A curated list of papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).
+A list of awesome papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).
 
 ---
 
