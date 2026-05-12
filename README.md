@@ -20,7 +20,7 @@
 
 ## News
 
-- **[2026.05]** We have open-sourced a repository that includes a comprehensive taxonomy of over 400 papers.
+- **[2026.05]** We have open-sourced a comprehensive, continuously-updated taxonomy of 400+ papers covering model compression, inference acceleration, and system co-design for efficient large models.
 
 ---
 
