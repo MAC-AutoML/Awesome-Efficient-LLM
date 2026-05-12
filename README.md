@@ -27,7 +27,7 @@
 ## Taxonomy
 
 <p align="center">
-  <img src="Taxonomy.png" width="800">
+  <img src="Taxonomy.jpg" width="800">
 </p>
 
 ---
