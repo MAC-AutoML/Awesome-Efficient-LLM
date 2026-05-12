@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![Last Commit](https://img.shields.io/badge/Last_Update-2025.05-blue)
+![Last Commit](https://img.shields.io/badge/Last_Update-2026.05-blue)
 ![Papers](https://img.shields.io/badge/Papers-400%2B-red)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
 
