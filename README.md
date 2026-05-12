@@ -260,7 +260,6 @@
 | 2023 | GKD: A General Knowledge Distillation Framework for Large-scale Pre-trained Language Model | ACL 2023 | [Link](https://arxiv.org/abs/2306.06629) | [Link](https://github.com/aitsc/GLMKD) ![](https://img.shields.io/github/stars/aitsc/GLMKD.svg?style=social) |
 | 2023 | Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes | ACL 2023 | [Link](https://arxiv.org/abs/2305.02301) | [Link](https://github.com/google-research/distilling-step-by-step) ![](https://img.shields.io/github/stars/google-research/distilling-step-by-step.svg?style=social) |
 | 2023 | Cache me if you Can: an Online Cost-aware Teacher-Student framework to Reduce the Calls to Large Language Models | EMNLP 2023 | [Link](https://arxiv.org/abs/2310.13395) | [Link](https://github.com/stogiannidis/OCaTS) ![](https://img.shields.io/github/stars/stogiannidis/OCaTS.svg?style=social) |
-| 2020 | Few Sample Knowledge Distillation for Efficient Network Compression | CVPR 2020 | [Link](https://arxiv.org/abs/1812.01839) | [Link](https://github.com/LTH14/FSKD) ![](https://img.shields.io/github/stars/LTH14/FSKD.svg?style=social) |
 ---
 # Low-Rank Decomposition
 | Year | Title                                                                   | Venue   | Paper                                 | code                                                                                                                        |
@@ -272,7 +271,6 @@
 | 2024 | SliceGPT: Orthogonal Slicing for Parameter-Efficient Transformer Compression | ICLR 2024 | [Link](https://arxiv.org/abs/2401.15024) | [Link](https://github.com/microsoft/TransformerCompression) ![](https://img.shields.io/github/stars/microsoft/TransformerCompression.svg?style=social) |
 | 2024 | Low-Rank Knowledge Decomposition for Medical Foundation Models | CVPR 2024 | [Link](https://arxiv.org/abs/2409.19540) | [Link](https://github.com/MediaBrain-SJTU/LoRKD) ![](https://img.shields.io/github/stars/MediaBrain-SJTU/LoRKD.svg?style=social) |
 | 2024 | LORS: Low-rank Residual Structure for Parameter-Efficient Network Stacking | CVPR 2024 | [Link](https://arxiv.org/abs/2403.04303) | [Link](https://github.com/li-jl16/LORS) ![](https://img.shields.io/github/stars/li-jl16/LORS.svg?style=social) |
-| 2021 | Decomposable-Net: Scalable Low-Rank Compression for Neural Networks | IJCAI 2021 | [Link](https://www.ijcai.org/proceedings/2021/447) | [Link](https://github.com/ygcats/Scalable-Low-Rank-Compression-for-Neural-Networks) ![](https://img.shields.io/github/stars/ygcats/Scalable-Low-Rank-Compression-for-Neural-Networks.svg?style=social) |
 
 ---
 # KV Cache Compression
