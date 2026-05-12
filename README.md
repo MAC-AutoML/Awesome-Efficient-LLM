@@ -8,7 +8,7 @@
 ![Papers](https://img.shields.io/badge/Papers-400%2B-red)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
 
-**A curated list of papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).**
+**A list of awesome papers on compression and acceleration of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs).**
 
 *Continuously updated. Welcome to star and watch!*
 
